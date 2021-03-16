@@ -1,3 +1,29 @@
 body{
-background-color: none;
+    font-family: 'Raleway', 'sans-serif';
+  
+}
+a{
+    text-decoration: none;
+    color:#0065FC ;
+}
+
+.container{
+	display: flex;
+}
+
+.item1{
+    display:flex ;
+background-color:blue;
+width: 70%;
+}
+.item2{
+	background-color:yellow;
+    display: flex;
+    width: 30%;
+}
+.menu li {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+
 }

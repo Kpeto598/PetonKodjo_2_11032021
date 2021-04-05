@@ -35,3 +35,84 @@ nav {
 .menu0:hover a {
         color:  #0065fc;
 }
+
+input[type="text"] {
+        width: 20%;
+        border: 1px solid rgb(245, 238, 238);;
+        border-radius: 14px;
+        margin: 8px 0;
+        padding: 8px;
+        font-size: 17px;
+        font-weight: bold;
+        box-sizing: border-box;
+}
+          
+.recherche input[type="text"] {
+        padding-left: 90px;
+}
+      
+.recherche {
+        position: relative;
+}
+      
+.recherche i {
+        position: absolute;
+        left: 0;
+        top: 8px;
+        padding: 9px 8px;
+        color: black;
+}
+      
+.recherche.icone i {
+        background-color: rgb(245, 238, 238);
+        color: black;
+        padding: 11px 19px;
+        border-radius: 14px 0 0 14px;
+}
+
+.rechercher{
+        position: absolute;
+        left: 300px;
+        background-color: #0065fc;
+        color: white;
+        padding: 8px 10px;
+        border-radius: 0 14px 14px 0;
+        margin: 8px 20px;
+        font-size: 17px;
+        border: 1px solid #0065fc;
+}
+
+
+.filtres {
+        display: flex;
+        justify-content: space-between;
+        align-items:flex-start;
+}  
+.filtre_titre{
+
+
+}
+#cercleco {
+        background:white;
+        border-radius:50%;
+        width:48px;
+        height:48px;
+        border:1px solid black; 
+}
+#cercleco i{
+        color:  #0065fc;
+}
+
+#eco {
+
+
+}
+
+.filtre {
+        background:#bfd70e;
+        border-radius:30px;
+        width:250px;
+        height:50px;
+        border:1px solid; 
+
+}

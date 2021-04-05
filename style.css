@@ -2,28 +2,36 @@ body{
     font-family: 'Raleway', 'sans-serif';
   
 }
-a{
-    text-decoration: none;
-    color:#0065FC ;
+nav {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 10px;
+      }
+.navigation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+.logo img {
+        width: 160px;
+        vertical-align: middle;
 }
+           
+.menu {
+        display: flex;
+        list-style: none;
+        flex-wrap: wrap;
+      }     
 
-.container{
-	display: flex;
+.menu0 a {
+        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: black;
 }
-
-.item1{
-    display:flex ;
-background-color:blue;
-width: 70%;
+.menu0:hover {
+        background-color: rgb(163, 62, 62);
 }
-.item2{
-	background-color:yellow;
-    display: flex;
-    width: 30%;
-}
-.menu li {
-    display: flex;
-    justify-content: space-between;
-    text-decoration: none;
-
+.menu0:hover a {
+        color:  #0065fc;
 }

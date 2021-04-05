@@ -5,38 +5,142 @@
         <html lang="fr">
 	    <title>Bienvenue sur Réservia</title>
 	    <meta charset="utf-8" />
-	    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	    <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 	    <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+       <link rel="stylesheet" href="https://cdnjs. nuageflare. com/ajax/libs/hover. css/2. 3. 1/css/ planer. css (css)"/>
     </head>
 
     <body>
-        <header class="container">
-            <div class="item1">
-                <img src="img/logo/Reservia.svg" alt="Logo Réservia">
-            </div>
-            <div class="item2">
-                <nav>
-                    <ul class="menu">
-                        <div class="menu1">
-                            <li><a href="#">Hébergements</a></li>
-                        </div>
-                        <div class="menu2">
-                            <li><a href="#">Actualités</a></li>
-                        </div>
-                        <div class="menu3">
-                            <li><a href="#">S'inscrire</a></li>
-                        </div>
+        <header>
+            <nav class="navigation">
+                <a href="http://www.yahoo.fr" class="logo"><img src="images/logo/Reservia.svg" alt="Logo Réservia"></a>
+                    <ul class="menu"> 
+                        <li class="menu0"><a href="#" class="hvr-underline-reveal">Hébergements</a></li>
+                        <li class="menu0"><a href="#"class="btn btn-danger hvr-underline-reveal">Actualités</a></li>
+                        <li class="menu0"><a href="#" class="btn btn-danger hvr-underline-reveal">S'inscrire</a></li>
                     </ul>
-                </nav>
-            </div>
+            </nav>
         </header>
         <main>
-            
+            <section>
+                <div>
+                <h1>Trouver votre hébergement pour des vacances de rêve</h1>
+                <p>En plein centre ville ou en pleine nature</p>
+                </div>
+                <div>
+				  <input type="text" placeholder="Marseille,France">
+				  <i class="fas fa-map-marker-alt fa-fw" aria-hidden="true"></i><span>Rechercher</span>
+				</div>
+                <div>
+                    <div class="filtre">
+                        <h2>Filtres</h2>
+                    </div>       
+                    <div class="economique">
+                        <div id="cercleco"><i class="fas fa-money-bill-wave" aria-hidden="true"></i></div>
+                    </div>
+                 
+                    <div class="familial">
+                        <div id="cerclefamil"><i class="fas fa-child" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="romantique">
+                        <div id="cercleroman"><i class="fas fa-heart" aria-hidden="true"></i></div>
+                    </div>
+                    <div class="animaux">
+                        <div id="cercleanim"><i class="fas fa-dog fa-fw" aria-hidden="true"></i></div>
+                    </div>
+                </div>        
+            </section>
+            <section>
+                <div>
+                    <div class="exclamation">
+                    <img src="img\icones\exclamation.png">
+                    </div>
+                    <div class="text_exclamation">
+                       <p>Plus de 500 logements sont disponibles dans cette ville</p>
+                    </div>
+                </div>
+                <div>
+                    <div>
+                        <h3>Hébergements à Marseille</h3>
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                    <div>
+                        <h4>Afficher plus</h4>
+                    </div>
+
+                </div>
+                <div>
+                    <div>
+                        <h3>Les plus populaires</h3>
+                    </div>
+                    <div>
+                        <img src="">
+                    </div>
+                    <div>
+                        <div></div>
+                        <div></div>
+                        <div></div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <div>
+                    <div>
+                        <h3>Activités à Marseille</h3>
+                    </div>
+                    <div>
+                        <div>Vieux Port</div>
+                        <div>Fort de Pomègues</div>
+                        <div>îles du Frioul</div>
+                        <div>Parc National des Calanques</div>
+                        <div>Notre-Dame-de-la-Garde</div>
+                        <div>Parc Longchamp</div>
+                    </div>
+                </div>
+            </section>
+
         </main>
 
         <footer>
+            <div>
+                <div>
+                    <p>A propos</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Fonctionnement du site</a></li>
+                            <li><a href="#">Conditions générales de vente</a></li>
+                            <li><a href="#">Données et confidentialité</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <p>Nos hébergements</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Charte qualité</a></li>
+                            <li><a href="#">Soumettre votre hôtel</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div>
+                    <p>Assistance</p>
+                    <nav>
+                        <ul>
+                            <li><a href="#">Centre d'aide</a></li>
+                            <li><a href="#">Nous contacter</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </footer>
         
     </body>

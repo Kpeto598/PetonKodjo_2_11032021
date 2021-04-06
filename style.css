@@ -29,9 +29,7 @@ nav {
         text-decoration: none;
         color: black;
 }
-.menu0:hover {
-        background-color: rgb(163, 62, 62);
-}
+
 .menu0:hover a {
         color:  #0065fc;
 }
@@ -81,38 +79,40 @@ input[type="text"] {
         font-size: 17px;
         border: 1px solid #0065fc;
 }
-
-
 .filtres {
         display: flex;
-        justify-content: space-between;
-        align-items:flex-start;
+        justify-content: space-around;
 }  
 .filtre_titre{
 
 
 }
 #cercleco {
-        background:white;
+        background:lightskyblue;
         border-radius:50%;
         width:48px;
         height:48px;
-        border:1px solid black; 
+        border:1px solid lightskyblue; 
 }
 #cercleco i{
         color:  #0065fc;
+        position: absolute;
+        left: 286px;
+        top: 256px;
+        padding: 9px 12px;
 }
-
-#eco {
-
-
+#cercleco p {
+        position: absolute;
+        left: 205px;
+        top: 241px;
+        padding: 9px 80px;
+        font-weight: bold;
 }
 
 .filtre {
-        background:#bfd70e;
         border-radius:30px;
         width:250px;
-        height:50px;
-        border:1px solid; 
+        height:45px;
+        border:2px solid rgb(214, 211, 211);
 
 }

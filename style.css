@@ -5,7 +5,6 @@ body{
 
 nav {
         width: 100%;
-        padding-left: 30px;
         padding-right: 10px;
 }
 
@@ -16,7 +15,7 @@ nav {
 }
 
 .logo img {
-        width: 160px;
+        width: 120px;
         vertical-align: middle;
 }
            
@@ -116,8 +115,8 @@ input[type="text"] {
         width:48px;
         height:48px;
         border:1px solid lightskyblue; 
-        top: 267px;
-        left: 97px;
+        top: 264px;
+        left: 104px;
 }
 
 #cercleco i {
@@ -143,7 +142,7 @@ input[type="text"] {
         width:48px;
         height:48px;
         border:1px solid lightskyblue; 
-        top: 267px;
+        top: 264px;
         left: 330px;
 
 }
@@ -171,8 +170,8 @@ input[type="text"] {
         width:48px;
         height:48px;
         border:1px solid lightskyblue; 
-        top: 267px;
-        left: 550px;
+        top: 264px;
+        left: 555px;
 
 }
 
@@ -199,8 +198,8 @@ input[type="text"] {
         width:48px;
         height:48px;
         border:1px solid lightskyblue; 
-        top: 267px;
-        left: 770px;
+        top: 264px;
+        left: 775px;
 }
 
 #cercleanim i {

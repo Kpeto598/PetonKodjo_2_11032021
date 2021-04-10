@@ -3,6 +3,8 @@ body{
   
 }
 
+/* Menu de navigation*/
+
 .navigation {
         display: flex;
         justify-content: space-between;
@@ -31,37 +33,38 @@ body{
         color:  #0065fc;
 }
 
-input[type="text"] {
-        width: 20%;
-        border: 1px solid rgb(245, 238, 238);;
-        border-radius: 14px;
-        margin: 8px 0;
-        padding: 8px;
+/* Formulaire de recherche*/
+
+form{
+
+        display: flex;
+}
+form input[type="text"] {
+        display: flex;
+        padding: 8px 75px;
+        width: 250px;
+        height: 20px;
+        border-radius: 20px;
         font-size: 17px;
         font-weight: bold;
-        box-sizing: border-box;
-}
-          
-.recherche input[type="text"] {
-        padding-left: 90px;
-}
-      
-      
-.recherche i {
-        position: absolute;
-        left: 0;
-        top: 8px;
-        padding: 9px 8px;
-        color: black;
-}
-      
-.recherche.icone i {
-        background-color: rgb(245, 238, 238);
-        color: black;
-        padding: 11px 19px;
-        border-radius: 14px 0 0 14px;
-}
+        align-items: center;
 
+
+    border: 2px solid rgb(214, 211, 211);
+}              
+      
+form i {
+        display: flex;
+        width: 75px;
+        height: 35px;
+        border-radius: 14px 0 0 14px;
+        border: 1px solid black;
+         background-color: antiquewhite;
+         justify-content: center;
+         align-items: center;
+  
+    }
+      
 .rechercher {
         position: absolute;
         left: 300px;
@@ -73,6 +76,8 @@ input[type="text"] {
         font-size: 17px;
         border: 1px solid #0065fc;
 }
+
+/* Filtres de recherche*/
 
 .filtres {
         display: flex;
@@ -101,13 +106,77 @@ input[type="text"] {
         display: flex;
         width: 35px;
         height: 35px;
-        border: 1px solid black;
+        border: 1px solid lightskyblue;
         border-radius: 50%;
-        background-color: antiquewhite;
+        background-color: lightskyblue;
         justify-content: center;
         align-items: center;
-    }
+        color: #0065fc;;
+}
 
+/* Volet plus de 500 logements*/
+
+.exclamation{
+        display: flex;
+        justify-content: flex-start;
+}
+
+.exclamation i{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width:30px;
+        height: 30px;
+        border: 1px solid black;
+        border-radius: 50%;
+        color: #0065fc;;
+
+}
+
+.exclamation p{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin:10px;
+}
+
+/*Hébergement à Marseille*/
+
+.bg_hebergements{
+        background-color: darkgray;
+}
+.hebergements{
+        display: flex;
+        justify-content: space-between;
+
+}
+.hebergements0{
+        display: flex;
+        width:250px;
+        height:250px;
+        border: 1px solid black;
+        border-radius: 4px;
+}
+.hebergements1{
+        display: flex;
+        justify-content: space-between;
+}
+.hebergements01{
+        display: flex;
+        width:250px;
+        height:250px;
+        border: 1px solid black;
+        border-radius: 4px;
+}
+
+
+
+
+
+
+
+
+/*Menu footer*/
 
 footer {
         background-color: darkgray;

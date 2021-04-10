@@ -3,11 +3,6 @@ body{
   
 }
 
-nav {
-        width: 100%;
-        padding-right: 10px;
-}
-
 .navigation {
         display: flex;
         justify-content: space-between;
@@ -15,7 +10,7 @@ nav {
 }
 
 .logo img {
-        width: 120px;
+        width: 160px;
         vertical-align: middle;
 }
            
@@ -51,9 +46,6 @@ input[type="text"] {
         padding-left: 90px;
 }
       
-.recherche {
-        position: relative;
-}
       
 .recherche i {
         position: absolute;
@@ -84,135 +76,60 @@ input[type="text"] {
 
 .filtres {
         display: flex;
-}  
-
-.filtre_titre {
-        position: absolute;
-        top: 27%;
+        align-items: baseline;
         font-size: 20px;
         font-weight: bold;
-}
+}  
 
 .filtre {
         display: flex;
         flex-wrap: wrap;
         margin: 8px;
-        padding: 9px 80px;
+
 }
 
 .filtre0 {
+        display: flex;
+        align-items: center;
         border-radius:30px;
         width:200px;
-        height:45px;
+        height:35px;
         border:2px solid rgb(214, 211, 211);
         margin:10px ;
 }
+.filtre0 i{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        border: 1px solid black;
+        border-radius: 50%;
+        background-color: antiquewhite;
+        justify-content: center;
+        align-items: center;
+    }
 
-#cercleco {
-        position: absolute;
-        background:lightskyblue;
-        border-radius:50%;
-        width:48px;
-        height:48px;
-        border:1px solid lightskyblue; 
-        top: 264px;
-        left: 104px;
-}
 
-#cercleco i {
-        color:  #0065fc;
-        position: absolute;
-        left: 2px;
-        top: 5px;
-        padding: 9px 12px;
-}
-
-#cercleco p {
-        position: absolute;
-        left: 68px;
-        bottom: 0.5px;
-        font-weight: bold;
-        font-size: 18px;
-}
-
-#cerclefamil {
-        position: absolute;
-        background:lightskyblue;
-        border-radius:50%;
-        width:48px;
-        height:48px;
-        border:1px solid lightskyblue; 
-        top: 264px;
-        left: 330px;
+footer {
+        background-color: darkgray;
 
 }
 
-#cerclefamil i {
-        color:  #0065fc;
-        position: absolute;
-        left: 5px;
-        top: 5px;
-        padding: 9px 12px;
+.pied_page{
+        
+        display: flex;
+        justify-content: space-between;
 }
 
-#cerclefamil p {
-        position: absolute;
-        bottom: 0.5px;
-        font-weight: bold;
-        font-size: 18px;
-        left: 68px;
+.pied_page nav ul{
+        list-style:none;
+        margin-left:0;
+        padding-left:0;
+        }
+li {
+        margin-bottom:10px;
 }
 
-#cercleroman {
-        position: absolute;
-        background:lightskyblue;
-        border-radius:50%;
-        width:48px;
-        height:48px;
-        border:1px solid lightskyblue; 
-        top: 264px;
-        left: 555px;
-
-}
-
-#cercleroman i {
-        color:  #0065fc;
-        position: absolute;
-        left: 14px;
-        top: 14px;
-
-}
-
-#cercleroman p {
-        position: absolute;
-        bottom: 0.5px;
-        font-weight: bold;
-        font-size: 18px;
-        left: 68px;
-}
-
-#cercleanim {
-        position: absolute;
-        background:lightskyblue;
-        border-radius:50%;
-        width:48px;
-        height:48px;
-        border:1px solid lightskyblue; 
-        top: 264px;
-        left: 775px;
-}
-
-#cercleanim i {
-        color:  #0065fc;
-        position: absolute;
-        left: 14px;
-        top: 14px;
-}
-
-#cercleanim p {
-        position: absolute;
-        bottom: 0.5px;
-        font-weight: bold;
-        font-size: 18px;
-        left: 68px;
+.pied_page0 a {
+        color: black;
+        text-decoration: none;
 }

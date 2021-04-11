@@ -143,21 +143,81 @@ form i {
 /*Hébergement à Marseille*/
 
 .container{
-        background-color: darkgray;
+        width:100%;
         display:flex
 }
 .hebergements{
-        display: flex;
-        justify-content: space-between;
+ width: 60%;
+ background-color:gainsboro;
+ margin:10px;
+ border-radius: 20px;
 
 }
-.container0{
+.hg_marseille{
         display: flex;
-        width:250px;
-        height:250px;
-        border: 1px solid black;
-        border-radius: 4px;
+        flex-wrap: wrap;   
 }
+
+.hg_marseille0{
+        margin:10px; 
+}
+.cannebiere{
+        width:300px;
+        height:150px;
+}
+.hotel_port{
+        width:300px;
+        height:150px;
+}
+.hotel_mouettes{
+        width:300px;
+        height:150px;
+}
+
+.hotel_mer {
+        width:300px;
+        height:150px;
+}
+.auberge_panier {
+        width:300px;
+        height:150px;
+}
+.hotel_amina{
+        width:300px;
+        height:150px;
+}
+
+/*Les plus populaires */
+
+.populaires{
+        width: 30%;
+        background-color:gainsboro;
+        margin:10px;
+        border-radius: 20px;    
+}
+
+.hg_populaires{
+        display: flex;
+        flex-wrap: wrap;   
+}
+
+.hg_populaires0{
+        margin:10px; 
+}
+
+.hotel_soleil {
+        width:300px;
+        height:150px;
+}
+.au_coeur {
+        width:300px;
+        height:150px;
+}
+.tout_bleu{
+        width:300px;
+        height:150px;
+}
+
 
 /*Activités à Marseille*/
 

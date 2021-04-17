@@ -29,9 +29,9 @@ body{
         color: black;
 }
 
-.menu0:hover a {
-        color:  #0065fc;
-}
+.menu0:hover {
+        border-top: 2px solid #0065fc;
+  }
 
 /*Introduction*/
 
@@ -53,21 +53,21 @@ body{
         height: 20px;
         font-size: 17px;
         font-weight: bold;
-        border:2px solid rgb(214, 211, 211);
+        border:1px solid #F2F2F2;
         }
 .recherche i{
         display: flex;
-        width: 50px;
-        height: 40px;
+        width: 46px;
+        height: 37px;
         border-radius: 14px 0 0 14px;
-        background-color:lightgray;
+        background-color:#F2F2F2;
         justify-content: center;
         align-items: center;
 }
 
 .recherche input[type="submit"] {
         width: 120px;
-        height: 40px;
+        height: 37px;
         background-color: #0065fc;
         color: white;
         padding: 2px 10px;
@@ -83,8 +83,9 @@ body{
 .filtres {
         display: flex;
         align-items: baseline;
-        font-size: 20px;
+        font-size: 17px;
         font-weight: bold;
+ 
 }  
 
 .filtre {
@@ -92,31 +93,109 @@ body{
         flex-wrap: wrap;
 }
 
-.filtre0 {
+.filtre1 {
+        display: flex;
+        align-items: center;
+        border-radius:30px;
+        width:170px;
+        height:35px;
+        border:2px solid #F2F2F2;
+        margin:10px ;
+}
+.filtre1 i{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #DEEBFF;
+        border-radius: 50%;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        color: #0065fc;
+        font-size: 15px;
+}
+.filtre1 p{
+        display: flex;
+        margin:auto;
+}
+
+.filtre2 {
+        display: flex;
+        align-items: center;
+        border-radius:30px;
+        width:130px;
+        height:35px;
+        border:2px solid #F2F2F2;
+        margin:10px ;
+}
+.filtre2 i{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #DEEBFF;
+        border-radius: 50%;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        color: #0065fc;
+        font-size: 15px;
+}
+.filtre2 p{
+        display: flex;
+        margin:auto;
+}
+
+.filtre3 {
+        display: flex;
+        align-items: center;
+        border-radius:30px;
+        width:160px;
+        height:35px;
+        border:2px solid #F2F2F2;
+        margin:10px ;
+}
+.filtre3 i{
+        display: flex;
+        width: 35px;
+        height: 35px;
+        border: 1px solid #DEEBFF;
+        border-radius: 50%;
+        background-color: #DEEBFF;
+        justify-content: center;
+        align-items: center;
+        color: #0065fc;
+        font-size: 15px;
+}
+.filtre3 p{
+        display: flex;
+        margin:auto;
+}
+
+.filtre4 {
         display: flex;
         align-items: center;
         border-radius:30px;
         width:200px;
         height:35px;
-        border:2px solid rgb(214, 211, 211);
+        border:2px solid #F2F2F2;
         margin:10px ;
 }
-.filtre0 i{
+.filtre4 i{
         display: flex;
         width: 35px;
         height: 35px;
-        border: 1px solid lightskyblue;
+        border: 1px solid #DEEBFF;
         border-radius: 50%;
-        background-color: lightskyblue;
+        background-color: #DEEBFF;
         justify-content: center;
         align-items: center;
-        color: #0065fc;;
+        color: #0065fc;
+        font-size: 15px;
 }
-.filtre0 p{
+.filtre4 p{
         display: flex;
-
+        margin:auto;
 }
-
 /* Volet plus de 500 logements*/
 
 .exclamation{
@@ -128,11 +207,12 @@ body{
         display: flex;
         justify-content: center;
         align-items: center;
-        width:30px;
-        height: 30px;
-        border: 1px solid black;
+        width:22px;
+        height: 22px;
+        border: 1px solid #F2F2F2;
         border-radius: 50%;
         color: #0065fc;
+        font-size: 11px;
 
 }
 
@@ -151,7 +231,7 @@ body{
 }
 .hebergements{
  width: 60%;
- background-color:gainsboro;
+ background-color:#F2F2F2;
  margin:10px;
  border-radius: 20px;
 
@@ -171,7 +251,6 @@ body{
 
 .etoile{
 display:flex;
-
 }
 
 .etoile1 i{
@@ -219,7 +298,7 @@ display:flex;
 
 .populaires{
         width: 30%;
-        background-color:gainsboro;
+        background-color:#F2F2F2;
         margin:10px;
         border-radius: 20px;    
 }
@@ -278,14 +357,8 @@ border:1px solid white;
 
 .marseille01{
         width:auto;
-        margin :10px;
-        border-radius:0 0 25px 25px;
-}
-.marseille001{
-        height:300px;
         margin:10px;
-        border-radius:0 0 25px 25px;
-        border:1px solid white;
+        height: 390px;
 }
 
 .marseille001 .pomegues{
@@ -317,17 +390,12 @@ border:1px solid white;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
 }
-
-.marseille02{
-        margin :10px;
-        border-radius:0 0 25px 25px;
-        border:1px solid white;
-}
-        
+  
 .marseille02 .calanques{
         width:350px;
-        height: 400px;
+        height: 390px;
         border-radius:25px 25px 0 0;
+        margin :10px;
 }
         
 .marseille02 p{
@@ -343,20 +411,21 @@ border:1px solid white;
 .marseille03 {
         width:auto;
         margin:10px;
-        border-radius:0 0 25px 25px;
-}
-
-.marseille003{
-        height:240px;
-        margin :10px;
-        border-radius:0 0 25px 25px;
-        border:1px solid white;
-}
+ }
 
 .marseille003 .notre_dame{
         width:300px;
         height: 180px;
         border-radius:25px 25px 0 0;
+}
+
+.marseille003 p{
+        display: flex;
+        width:300px;
+        height: 25px;
+        border-radius:0 0 25px 25px;
+        box-shadow: 8px 8px 8px #aaa;
+        justify-content: center;
 }
 
 .marseille0030 .longchamp{

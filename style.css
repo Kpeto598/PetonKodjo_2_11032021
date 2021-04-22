@@ -1,18 +1,23 @@
 body{
     font-family: 'Raleway', 'sans-serif';
-  
+}
+
+/*Container du site entier*/
+
+#container{
+        width: 90%;
+        margin:auto;
+
 }
 
 /* Menu de navigation*/
 
 .navigation {
         display: flex;
-        justify-content: space-between;
-        align-items: center;
 }
 
 .logo img {
-        width: 140px;
+        width: 120px;
         vertical-align: middle;
 }
            
@@ -20,23 +25,36 @@ body{
         display: flex;
         list-style: none;
         flex-wrap: wrap;
+        margin-left: 650px;
 }     
 
 .menu0 a {
-        display: inline-block;
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #0065fc;
+}
+
+.menu0:hover {
+        border-top: 2px solid #0065fc;
+        
+}
+
+.menu1 a {
         padding: 10px 15px;
         text-decoration: none;
         color: black;
 }
 
-.menu0:hover {
-        border-top: 2px solid #0065fc;
-  }
+.menu2 a {
+        padding: 10px 15px;
+        text-decoration: none;
+        color: #0065fc;
+        font-weight: bold;
+}
 
 /*Introduction*/
 
 .intro{
-
         width:50%;
 }
 
@@ -44,7 +62,8 @@ body{
 
 .recherche {
         display: flex;
-        width: 50%;    
+        width: 50%;   
+        margin-bottom: 10px; 
 }
       
 .recherche input[type="text"] {
@@ -199,8 +218,7 @@ body{
 /* Volet plus de 500 logements*/
 
 .exclamation{
-        display: flex;
-        justify-content: flex-start;
+        display: flex;   
 }
 
 .exclamation i{
@@ -213,7 +231,7 @@ body{
         border-radius: 50%;
         color: #0065fc;
         font-size: 11px;
-
+        margin-top:6px;
 }
 
 .exclamation p{
@@ -225,16 +243,16 @@ body{
 
 /*Hébergement à Marseille*/
 
-.container{
-        width:100%;
-        display:flex
+.hebergements_marseille{
+        display:flex;
+        
 }
 
 .hebergements{
- width: 43%;
- background-color:#F2F2F2;
- margin:10px;
- border-radius: 20px;
+        width: 55%;
+        background-color:#F2F2F2;
+        margin:10px;
+        border-radius: 20px;
 
 }
 
@@ -327,15 +345,9 @@ display:flex;
 /*Les plus populaires */
 
 .populaires{
-        width: 25%;
+        width:25%;
         background-color:#F2F2F2;
         border-radius: 20px; 
-        margin:10px;   
-}
-
-.populaires_titre{
-        display: flex;
-        justify-content: space-around;
 }
 
 .hg_populaires{
@@ -379,16 +391,15 @@ display:flex;
 /*Activités à Marseille*/
 
 .marseille{
-display: flex;
-
+        display: flex;
 }
 
 .marseille0{
-margin :10px;
-width: 350px;
-height: 453px;
-border-radius:0 0 25px 25px;
-border:1px solid white;
+        margin: 10px;
+        width: 350px;
+        height: 453px;
+        border-radius:0 0 25px 25px;
+        border:1px solid white;
 }
 
 .marseille0 .port{
@@ -404,12 +415,11 @@ border:1px solid white;
         border-radius:0 0 25px 25px;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
-   
 }
 
 .marseille01{
         display: flex;
-        width:auto;
+        width:300px;
         margin:10px;
         height: 453px;
         flex-wrap: wrap;
@@ -446,7 +456,7 @@ border:1px solid white;
 }
 
 .marseille02{
-        margin :10px;
+        margin:10px;
         width: 350px;
         height: 453px;
         border-radius:0 0 25px 25px;
@@ -460,18 +470,17 @@ border:1px solid white;
 }
         
 .marseille02 p{
-                display: flex;
-                width:350px;
-                height: 25px;
-                border-radius:0 0 25px 25px;
-                box-shadow: 8px 8px 8px #aaa;
-                justify-content: center;
-           
+        display: flex;
+        width:350px;
+        height: 25px;
+        border-radius:0 0 25px 25px;
+        box-shadow: 8px 8px 8px #aaa;
+        justify-content: center;   
 }
 
 .marseille03 {
         display: flex;
-        width:auto;
+        width:300px;
         margin:10px;
         height: 453px;
         flex-wrap: wrap;
@@ -508,8 +517,6 @@ border:1px solid white;
         justify-content: center;
 }
 
-
-
 /*Menu footer*/
 
 footer {
@@ -517,7 +524,7 @@ footer {
 }
 
 .pied_page {
-        width: 60%;
+        width: 58%;
         display: flex;
         justify-content: space-between;
         margin-left: 30px;

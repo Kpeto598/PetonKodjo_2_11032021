@@ -5,7 +5,7 @@ body{
 /*Container du site entier*/
 
 #container{
-        width: 90%;
+        width: 80%;
         margin:auto;
 
 }
@@ -25,18 +25,14 @@ body{
         display: flex;
         list-style: none;
         flex-wrap: wrap;
-        margin-left: 650px;
+        margin-left: 900px;
 }     
 
 .menu0 a {
-        padding: 10px 15px;
+        border-top: 2px solid #0065fc;
+        padding: 20px 15px;
         text-decoration: none;
         color: #0065fc;
-}
-
-.menu0:hover {
-        border-top: 2px solid #0065fc;
-        
 }
 
 .menu1 a {
@@ -63,7 +59,7 @@ body{
 .recherche {
         display: flex;
         width: 50%;   
-        margin-bottom: 10px; 
+        margin-bottom: 15px; 
 }
       
 .recherche input[type="text"] {
@@ -198,6 +194,7 @@ body{
         height:35px;
         border:2px solid #F2F2F2;
         margin:10px ;
+        margin-bottom: 15px; 
 }
 .filtre4 i{
         display: flex;
@@ -245,19 +242,19 @@ body{
 
 .hebergements_marseille{
         display:flex;
-        
+         
 }
 
 .hebergements{
-        width: 55%;
+        width: 54%;
         background-color:#F2F2F2;
         margin:10px;
         border-radius: 20px;
-
+        padding: 20px;
 }
 
 .hebergements h3{
-        margin-left:50px;
+        margin-left:15px;
         margin-top:40px;
         margin-bottom: 10px;
 }
@@ -279,10 +276,11 @@ body{
         height:150px;
         border-radius: 17px 17px 0 0;
         padding:5px;
-}
+  }
 
-.hg_marseille0 h4{
-        margin-bottom: 2px;
+.hg_marseille0 p{
+        margin-top: 15px;
+        margin-left: 15px;
  }
 
  .hg_marseille0 p{
@@ -345,11 +343,26 @@ display:flex;
 /*Les plus populaires */
 
 .populaires{
-        width:25%;
+        width: 30%;
         background-color:#F2F2F2;
-        border-radius: 20px; 
+        margin:10px;
+        border-radius: 20px;
+        padding: 20px;
 }
+.pop_titre{
+        display: flex;
+ }
+ .chart i{
 
+        margin-top: 45px;
+        margin-left: 120px
+ }
+
+.populaires h3{
+        margin-left:15px;
+        margin-top:40px;
+        margin-bottom: 10px;
+}
 .hg_populaires{
         display: flex;
         flex-wrap: wrap;   
@@ -357,7 +370,7 @@ display:flex;
 
 .hg_populaires0{
         display: flex;
-        margin: 20px;
+        margin: 10px;
         border: 1px solid #F2F2F2;
         border-radius: 15px;
         height: 150px;
@@ -392,6 +405,8 @@ display:flex;
 
 .marseille{
         display: flex;
+        flex-wrap: wrap;
+
 }
 
 .marseille0{
@@ -404,7 +419,7 @@ display:flex;
 
 .marseille0 .port{
         width:350px;
-        height: 390px;
+        height: 380px;
         border-radius:25px 25px 0 0;
 }
 
@@ -421,13 +436,13 @@ display:flex;
         display: flex;
         width:300px;
         margin:10px;
-        height: 453px;
+        height: 460px;
         flex-wrap: wrap;
 }
 
 .marseille001 .pomegues{
         width:300px;
-        height: 180px;
+        height: 160px;
         border-radius:25px 25px 0 0;
 }
 
@@ -442,7 +457,7 @@ display:flex;
 
 .marseille0010 .frioul{
         width:300px;
-        height: 130px;
+        height: 143px;
         border-radius:25px 25px 0 0;
 }
 
@@ -458,14 +473,14 @@ display:flex;
 .marseille02{
         margin:10px;
         width: 350px;
-        height: 453px;
+        height: 445px;
         border-radius:0 0 25px 25px;
         border:1px solid white;
         }
   
 .marseille02 .calanques{
         width:350px;
-        height: 390px;
+        height: 380px;
         border-radius:25px 25px 0 0;
 }
         
@@ -482,13 +497,13 @@ display:flex;
         display: flex;
         width:300px;
         margin:10px;
-        height: 453px;
+        height: 450px;
         flex-wrap: wrap;
  }
 
 .marseille003 .notre_dame{
         width:300px;
-        height: 180px;
+        height: 135px;
         border-radius:25px 25px 0 0;
 }
 
@@ -504,7 +519,7 @@ display:flex;
 
 .marseille0030 .longchamp{
         width:300px;
-        height: 130px;
+        height: 175px;
         border-radius:25px 25px 0 0;
 }
 
@@ -520,11 +535,13 @@ display:flex;
 /*Menu footer*/
 
 footer {
+        width: 95%;
         background-color: #F2F2F2;
 }
 
 .pied_page {
-        width: 58%;
+        display: flex;
+        width: 60%;
         display: flex;
         justify-content: space-between;
         margin-left: 30px;

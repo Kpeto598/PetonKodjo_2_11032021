@@ -30,19 +30,19 @@ body{
 
 .menu0 a {
         border-top: 2px solid #0065fc;
-        padding: 20px 15px;
+        padding: 1.25em 0.938em;
         text-decoration: none;
         color: #0065fc;
 }
 
 .menu1 a {
-        padding: 10px 15px;
+        padding: 0.625em 0.938em;
         text-decoration: none;
         color: black;
 }
 
 .menu2 a {
-        padding: 10px 15px;
+        padding: 0.625em 0.938em;
         text-decoration: none;
         color: #0065fc;
         font-weight: bold;
@@ -242,21 +242,25 @@ body{
 
 .hebergements_marseille{
         display:flex;
-         
+        
 }
 
 .hebergements{
-        width: 54%;
+        width: 50%;
         background-color:#F2F2F2;
-        margin:10px;
-        border-radius: 20px;
-        padding: 20px;
+        margin:0.625em;
+        border-radius: 1.25em;
+        padding: 0 3.125em 0 3.125em ;
 }
 
 .hebergements h3{
-        margin-left:15px;
-        margin-top:40px;
-        margin-bottom: 10px;
+        margin-left:0.938em;
+        margin-top:2.5em;
+        margin-bottom: 0.625em;
+}
+.hebergements h4{
+        margin-left:0.938em;
+        margin-top:2.5em;
 }
 
 .hg_marseille{
@@ -266,36 +270,38 @@ body{
 }
 
 .hg_marseille0{
-        margin:10px; 
+        margin:0.625em; 
         background-color: white;
         border:1px solid #F2F2F2;
-        border-radius: 17px;
+        border-radius: 1.063em;
+        height: 13.25em;
  }
 .cannebiere{
-        width:250px;
-        height:150px;
-        border-radius: 17px 17px 0 0;
-        padding:5px;
+        width:14.375em;
+        height:7.5em;
+        border-radius: 1.063em 1.063em 0 0;
+        padding:0.313em;
+        object-fit: cover;
   }
 
 .desc_hebgmt{
-margin-bottom: 5px;
+margin-bottom: 0.313em;
 }
 
 .hg_marseille0 p{
-        margin-top: 5px;
-        margin-left: 15px;
-        margin-bottom: 5px;
+        margin-top: 0.313em;
+        margin-left: 0.938em;
+        margin-bottom: 0.313em;
  }
 
 .etoile {
 display:flex;
-margin-left: 15px;
+margin-left: 0.938em;
 }
 
 .etoile01 {
         display:flex;
-        margin-left: 15px;
+        margin-left: 0.938em;
         }
 
 .etoile1 i{
@@ -316,60 +322,60 @@ margin-left: 15px;
 }
 
 .hotel_port{
-        width:230px;
-        height:150px;
-        border-radius: 15px 15px 0 0;
-        padding:5px;
+        width:14.375em;
+        height:7.5em;
+        border-radius: 0.938em 0.938em 0 0;
+        padding:0.313em;
 }
 .hotel_mouettes{
-        width:230px;
-        height:150px;
-        border-radius: 15px 15px 0 0;
-        padding:5px;
+        width:14.375em;
+        height:7.5em;
+        border-radius: 0.938em 0.938em 0 0;
+        padding:0.313em;
 }
 
 .hotel_mer {
-        width:230px;
-        height:150px;
-        border-radius: 15px 15px 0 0;
-        padding:5px;
+        width:14.375em;
+        height:7.5em;
+        border-radius: 0.938em 0.938em 0 0;
+        padding:0.313em;
 }
 .auberge_panier {
-        width:230px;
-        height:150px;
-        border-radius: 15px 15px 0 0;
-        padding:5px;
+        width:14.375em;
+        height:7.5em;
+        border-radius: 0.938em 0.938em 0 0;
+        padding:0.313em;
 }
 .hotel_amina{
-        width:230px;
-        height:150px;
-        border-radius: 15px 15px 0 0;
-        padding:5px;
+        width:14.375em;
+        height:7.5em;
+        border-radius: 0.938em 0.938em 0 0;
+        padding:0.313em;
 }
 
 
 /*Les plus populaires */
 
 .populaires{
-        width: 30%;
+        width: 27%;
         background-color:#F2F2F2;
-        margin:10px;
-        border-radius: 20px;
-        padding: 20px;
+        margin:0.625em;
+        border-radius: 1.25em;
+        padding: 0 3.125em 0 3.125em ;
 }
 .pop_titre{
         display: flex;
  }
  .chart i{
-
         margin-top: 45px;
-        margin-left: 120px
+        margin-left: 200px;
+        font-size:20px;
  }
 
 .populaires h3{
-        margin-left:15px;
-        margin-top:40px;
-        margin-bottom: 10px;
+        margin-left:0.938em;
+        margin-top:2.5em;
+        margin-bottom: 0.625em;
 }
 .hg_populaires{
         display: flex;
@@ -378,34 +384,37 @@ margin-left: 15px;
 
 .hg_populaires0{
         display: inline-flex;
-        margin: 10px;
+        margin: 0.625em;
         border: 1px solid #F2F2F2;
-        border-radius: 15px;
-        height: 150px;
-        width: 400px;
+        border-radius: 0.938em;
+        height: 9.375em;
+        width: 25em;
         background-color: white;
+}
+.desc_populaires{
+        margin:0.313em;
 }
 
 .hg_populaires00{
-        margin: 0 10px 0 0;
+        margin: 0 0.625em 0 0;
 }
 .hotel_soleil {
-        width:150px;
-        height:140px;
-        border-radius: 15px 0 0 15px;
-        padding:5px;
+        width:9.375em;
+        height:8.75em;
+        border-radius: 0.938em 0 0 0.938em;
+        padding:0.313em;
 }
 .au_coeur {
-        width:150px;
-        height:140px;
-        border-radius: 15px 0 0 15px;
-        padding:5px;
+        width:9.375em;
+        height:8.75em;
+        border-radius: 0.938em 0 0 0.938em;
+        padding:0.313em;
 }
 .tout_bleu{
-        width:150px;
-        height:140px;
-        border-radius: 15px 0 0 15px;
-        padding:5px;
+        width:9.375em;
+        height:8.75em;
+        border-radius: 0.938em 0 0 0.938em;
+        padding:0.313em;
 }
 
 
@@ -417,75 +426,75 @@ margin-left: 15px;
 }
 .mars_titre{
 
-        margin-left:15px;
+        margin-left:0.938em;
 }
 
 .marseille0{
         margin: 10px;
-        width: 350px;
-        height: 453px;
-        border-radius:0 0 25px 25px;
+        width: 21.875em;
+        height: 28.313em;
+        border-radius:0 0 1.563em 1.563em;
         border:1px solid white;
 }
 
 .marseille0 .port{
-        width:350px;
-        height: 380px;
-        border-radius:25px 25px 0 0;
+        width:21.875em;
+        height: 23.75em;
+        border-radius:1.563em 1.563em 0 0;
 }
 
 .marseille0 p{
         display: flex;
-        width:350px;
-        height: 25px;
-        border-radius:0 0 25px 25px;
+        width:21.875em;
+        height: 1.563em;
+        border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
 }
 
 .marseille01{
         display: flex;
-        width:350px;
+        width:21.875em;
         margin:10px;
-        height: 453px;
+        height: 28.313em;
         flex-wrap: wrap;
 }
 
 .marseille001 .pomegues{
-        width:350px;
-        height: 160px;
-        border-radius:25px 25px 0 0;
+        width:21.875em;
+        height: 10em;
+        border-radius:1.563em  1.563em  0 0;
 }
 
 .marseille001 p{
         display: flex;
-        width:350px;
-        height: 25px;
-        border-radius:0 0 25px 25px;
+        width:21.875em;
+        height: 1.563em;
+        border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
 }
 
 .marseille0010 .frioul{
-        width:350px;
-        height: 143px;
-        border-radius:25px 25px 0 0;
+        width:21.875em;
+        height: 8.938em;
+        border-radius:1.563em 1.563em 0 0;
 }
 
 .marseille0010 p{
         display: flex;
-        width:350px;
-        height: 25px;
-        border-radius:0 0 25px 25px;
+        width:21.875em;
+        height: 1.563em;
+        border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
 }
 
 .marseille02{
         margin:10px;
-        width: 350px;
-        height: 453px;
-        border-radius:0 0 25px 25px;
+        width: 21.875em;
+        height: 28.313;
+        border-radius:0 0 1.563em 1.563em;
         border:1px solid white;
         }
   
@@ -497,48 +506,48 @@ margin-left: 15px;
         
 .marseille02 p{
         display: flex;
-        width:350px;
-        height: 25px;
-        border-radius:0 0 25px 25px;
+        width:21.875em;
+        height: 1.563em;
+        border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;   
 }
 
 .marseille03 {
         display: flex;
-        width:350px;
+        width:21.875em;
         margin:10px;
-        height: 450px;
+        height: 28.125em;
         flex-wrap: wrap;
  }
 
 .marseille003 .notre_dame{
-        width:350px;
-        height: 135px;
-        border-radius:25px 25px 0 0;
+        width:21.875em;
+        height: 8.438em;
+        border-radius:1.563em 1.563em 0 0;
 }
 
 .marseille003 p{
         display: flex;
-        width:350px;
-        height: 25px;
-        border-radius:0 0 25px 25px;
+        width:21.875em;
+        height: 1.563em;
+        border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
   
 }
 
 .marseille0030 .longchamp{
-        width:350px;
-        height: 175px;
-        border-radius:25px 25px 0 0;
+        width:21.875em;
+        height: 10.938em;
+        border-radius:1.563em 1.563em 0 0;
 }
 
 .marseille0030 p{
         display: flex;
-        width:350px;
-        height: 25px;
-        border-radius:0 0 25px 25px;
+        width:21.875em;
+        height: 1.563em;
+        border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
 }

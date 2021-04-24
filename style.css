@@ -5,7 +5,7 @@ body{
 /*Container du site entier*/
 
 #container{
-        width: 80%;
+        width: 85%;
         margin:auto;
 
 }
@@ -17,7 +17,7 @@ body{
 }
 
 .logo img {
-        width: 120px;
+        width: 7.5em;
         vertical-align: middle;
 }
            
@@ -25,7 +25,7 @@ body{
         display: flex;
         list-style: none;
         flex-wrap: wrap;
-        margin-left: 900px;
+        margin-left: 59.375em;
 }     
 
 .menu0 a {
@@ -59,35 +59,35 @@ body{
 .recherche {
         display: flex;
         width: 50%;   
-        margin-bottom: 15px; 
+        margin-bottom: 0.938em; 
 }
       
 .recherche input[type="text"] {
         padding: 8px 25px;
-        width: 190px;
-        height: 20px;
-        font-size: 17px;
+        width: 11.875em;
+        height: 1.25em;
+        font-size: 1.063em;
         font-weight: bold;
         border:1px solid #F2F2F2;
         }
 .recherche i{
         display: flex;
-        width: 46px;
-        height: 37px;
-        border-radius: 14px 0 0 14px;
+        width: 2.875em;
+        height: 2.313em;
+        border-radius: 0.875em 0 0 0.875em;
         background-color:#F2F2F2;
         justify-content: center;
         align-items: center;
 }
 
 .recherche input[type="submit"] {
-        width: 120px;
-        height: 37px;
+        width: 7.5em;
+        height: 2.313em;
         background-color: #0065fc;
         color: white;
         padding: 2px 10px;
         border-radius: 0 14px 14px 0;
-        font-size: 17px;
+        font-size: 1.063em;
         align-items: center;
         justify-content: center;
         border: 1px solid #0065fc;    
@@ -98,7 +98,7 @@ body{
 .filtres {
         display: flex;
         align-items: baseline;
-        font-size: 17px;
+        font-size: 1.063em;
         font-weight: bold;
  
 }  
@@ -111,23 +111,23 @@ body{
 .filtre1 {
         display: flex;
         align-items: center;
-        border-radius:30px;
-        width:170px;
-        height:35px;
-        border:2px solid #F2F2F2;
-        margin:10px ;
+        border-radius:1.875em;
+        width:10.625em;
+        height:2.188em;
+        border:0.125em solid #F2F2F2;
+        margin:0.625em ;
 }
 .filtre1 i{
         display: flex;
-        width: 35px;
-        height: 35px;
-        border: 1px solid #DEEBFF;
+        width: 2.188em;
+        height: 2.188em;
+        border: 0.063em solid #DEEBFF;
         border-radius: 50%;
         background-color: #DEEBFF;
         justify-content: center;
         align-items: center;
         color: #0065fc;
-        font-size: 15px;
+        font-size: 0.938em;
 }
 .filtre1 p{
         display: flex;
@@ -137,23 +137,23 @@ body{
 .filtre2 {
         display: flex;
         align-items: center;
-        border-radius:30px;
-        width:130px;
-        height:35px;
-        border:2px solid #F2F2F2;
-        margin:10px ;
+        border-radius:1.875em;
+        width:8.125em;
+        height:2.188em;
+        border:0.125em solid #F2F2F2;
+        margin:0.625em ;
 }
 .filtre2 i{
         display: flex;
-        width: 35px;
-        height: 35px;
-        border: 1px solid #DEEBFF;
+        width: 2.188em;
+        height: 2.188em;
+        border: 0.063em solid #DEEBFF;
         border-radius: 50%;
         background-color: #DEEBFF;
         justify-content: center;
         align-items: center;
         color: #0065fc;
-        font-size: 15px;
+        font-size: 0.938em;
 }
 .filtre2 p{
         display: flex;
@@ -163,23 +163,23 @@ body{
 .filtre3 {
         display: flex;
         align-items: center;
-        border-radius:30px;
-        width:160px;
-        height:35px;
-        border:2px solid #F2F2F2;
-        margin:10px ;
+        border-radius:1.875em;
+        width:10em;
+        height:2.188em;
+        border:0.125em solid #F2F2F2;
+        margin:0.625em ;
 }
 .filtre3 i{
         display: flex;
-        width: 35px;
-        height: 35px;
-        border: 1px solid #DEEBFF;
+        width: 2.188em;
+        height: 2.188em;
+        border: 0.063em solid #DEEBFF;
         border-radius: 50%;
         background-color: #DEEBFF;
         justify-content: center;
         align-items: center;
         color: #0065fc;
-        font-size: 15px;
+        font-size: 0.938em;
 }
 .filtre3 p{
         display: flex;
@@ -189,24 +189,24 @@ body{
 .filtre4 {
         display: flex;
         align-items: center;
-        border-radius:30px;
-        width:200px;
-        height:35px;
-        border:2px solid #F2F2F2;
-        margin:10px ;
-        margin-bottom: 15px; 
+        border-radius:1.875em;
+        width:12.5em;
+        height:2.188em;
+        border:0.125em solid #F2F2F2;
+        margin:0.625em ;
+        margin-bottom: 0.938em; 
 }
 .filtre4 i{
         display: flex;
-        width: 35px;
-        height: 35px;
-        border: 1px solid #DEEBFF;
+        width: 2.188em;
+        height: 2.188em;
+        border: 0.063em solid #DEEBFF;
         border-radius: 50%;
         background-color: #DEEBFF;
         justify-content: center;
         align-items: center;
         color: #0065fc;
-        font-size: 15px;
+        font-size: 0.938em;
 }
 .filtre4 p{
         display: flex;
@@ -406,7 +406,10 @@ display:flex;
 .marseille{
         display: flex;
         flex-wrap: wrap;
+}
+.mars_titre{
 
+        margin-left:15px;
 }
 
 .marseille0{
@@ -434,21 +437,21 @@ display:flex;
 
 .marseille01{
         display: flex;
-        width:300px;
+        width:350px;
         margin:10px;
-        height: 460px;
+        height: 453px;
         flex-wrap: wrap;
 }
 
 .marseille001 .pomegues{
-        width:300px;
+        width:350px;
         height: 160px;
         border-radius:25px 25px 0 0;
 }
 
 .marseille001 p{
         display: flex;
-        width:300px;
+        width:350px;
         height: 25px;
         border-radius:0 0 25px 25px;
         box-shadow: 8px 8px 8px #aaa;
@@ -456,14 +459,14 @@ display:flex;
 }
 
 .marseille0010 .frioul{
-        width:300px;
+        width:350px;
         height: 143px;
         border-radius:25px 25px 0 0;
 }
 
 .marseille0010 p{
         display: flex;
-        width:300px;
+        width:350px;
         height: 25px;
         border-radius:0 0 25px 25px;
         box-shadow: 8px 8px 8px #aaa;
@@ -473,7 +476,7 @@ display:flex;
 .marseille02{
         margin:10px;
         width: 350px;
-        height: 445px;
+        height: 453px;
         border-radius:0 0 25px 25px;
         border:1px solid white;
         }
@@ -495,21 +498,21 @@ display:flex;
 
 .marseille03 {
         display: flex;
-        width:300px;
+        width:350px;
         margin:10px;
         height: 450px;
         flex-wrap: wrap;
  }
 
 .marseille003 .notre_dame{
-        width:300px;
+        width:350px;
         height: 135px;
         border-radius:25px 25px 0 0;
 }
 
 .marseille003 p{
         display: flex;
-        width:300px;
+        width:350px;
         height: 25px;
         border-radius:0 0 25px 25px;
         box-shadow: 8px 8px 8px #aaa;
@@ -518,14 +521,14 @@ display:flex;
 }
 
 .marseille0030 .longchamp{
-        width:300px;
+        width:350px;
         height: 175px;
         border-radius:25px 25px 0 0;
 }
 
 .marseille0030 p{
         display: flex;
-        width:300px;
+        width:350px;
         height: 25px;
         border-radius:0 0 25px 25px;
         box-shadow: 8px 8px 8px #aaa;
@@ -541,7 +544,7 @@ footer {
 
 .pied_page {
         display: flex;
-        width: 60%;
+        width: 73%;
         display: flex;
         justify-content: space-between;
         margin-left: 30px;

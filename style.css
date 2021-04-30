@@ -5,7 +5,7 @@ body{
 /*Container du site entier*/
 
 #container{
-        width: 85%;
+        width: 71%;
         margin:auto;
 
 }
@@ -242,15 +242,16 @@ body{
 
 .hebergements_marseille{
         display:flex;
+        flex-wrap: wrap;
         
 }
 
 .hebergements{
-        width: 50%;
+        width: 62%;
         background-color:#F2F2F2;
         margin:0.625em;
         border-radius: 1.25em;
-        padding: 0 3.125em 0 3.125em ;
+        padding: 0 20px 0 20px;
 }
 
 .hebergements h3{
@@ -270,19 +271,18 @@ body{
 }
 
 .hg_marseille0{
+        width:270px;
         margin:0.625em; 
         background-color: white;
         border:1px solid #F2F2F2;
-        border-radius: 1.063em;
-        height: 13.25em;
- }
-.cannebiere{
-        width:14.375em;
-        height:7.5em;
-        border-radius: 1.063em 1.063em 0 0;
+        border-radius: 1.063em ;
         padding:0.313em;
-        object-fit: cover;
-  }
+   }
+
+.hg_marseille0 img{
+        border-radius: 1.063em 1.063em 0 0;
+        height:150px;
+}
 
 .desc_hebgmt{
 margin-bottom: 0.313em;
@@ -311,53 +311,18 @@ margin-left: 0.938em;
        color: #0065fc;
 }
 
-
 .etoile01{
         display:flex;
 }
         
-
 .etoile001 i{
         color: #0065fc;
 }
 
-.hotel_port{
-        width:14.375em;
-        height:7.5em;
-        border-radius: 0.938em 0.938em 0 0;
-        padding:0.313em;
-}
-.hotel_mouettes{
-        width:14.375em;
-        height:7.5em;
-        border-radius: 0.938em 0.938em 0 0;
-        padding:0.313em;
-}
-
-.hotel_mer {
-        width:14.375em;
-        height:7.5em;
-        border-radius: 0.938em 0.938em 0 0;
-        padding:0.313em;
-}
-.auberge_panier {
-        width:14.375em;
-        height:7.5em;
-        border-radius: 0.938em 0.938em 0 0;
-        padding:0.313em;
-}
-.hotel_amina{
-        width:14.375em;
-        height:7.5em;
-        border-radius: 0.938em 0.938em 0 0;
-        padding:0.313em;
-}
-
-
 /*Les plus populaires */
 
 .populaires{
-        width: 27%;
+        width: 23%;
         background-color:#F2F2F2;
         margin:0.625em;
         border-radius: 1.25em;
@@ -387,36 +352,21 @@ margin-left: 0.938em;
         margin: 0.625em;
         border: 1px solid #F2F2F2;
         border-radius: 0.938em;
-        height: 9.375em;
-        width: 25em;
         background-color: white;
+        padding:0.313em;
+        width:350px;
+
+
 }
-.desc_populaires{
-        margin:0.313em;
+.hg_populaires0 img{
+ 
+        border-radius: 0.938em 0 0 0.938em;
+        height:8.75em;
 }
 
 .hg_populaires00{
         margin: 0 0.625em 0 0;
 }
-.hotel_soleil {
-        width:9.375em;
-        height:8.75em;
-        border-radius: 0.938em 0 0 0.938em;
-        padding:0.313em;
-}
-.au_coeur {
-        width:9.375em;
-        height:8.75em;
-        border-radius: 0.938em 0 0 0.938em;
-        padding:0.313em;
-}
-.tout_bleu{
-        width:9.375em;
-        height:8.75em;
-        border-radius: 0.938em 0 0 0.938em;
-        padding:0.313em;
-}
-
 
 /*Activités à Marseille*/
 
@@ -431,59 +381,59 @@ margin-left: 0.938em;
 
 .marseille0{
         margin: 10px;
-        width: 21.875em;
+        width: 23%;
         height: 28.313em;
         border-radius:0 0 1.563em 1.563em;
         border:1px solid white;
 }
 
 .marseille0 .port{
-        width:21.875em;
+        width:100%;
         height: 23.75em;
         border-radius:1.563em 1.563em 0 0;
 }
 
-.marseille0 p{
+.marseille00 p{
         display: flex;
-        width:21.875em;
+        width:100%;
         height: 1.563em;
         border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
-        justify-content: center;
+        justify-content: center; 
 }
 
 .marseille01{
         display: flex;
-        width:21.875em;
+        width:23%;
         margin:10px;
         height: 28.313em;
         flex-wrap: wrap;
 }
 
 .marseille001 .pomegues{
-        width:21.875em;
+        width:100%;
         height: 10em;
         border-radius:1.563em  1.563em  0 0;
 }
 
-.marseille001 p{
+.marseille0001 p{
         display: flex;
-        width:21.875em;
+        width:100%;
         height: 1.563em;
         border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
         justify-content: center;
 }
 
-.marseille0010 .frioul{
-        width:21.875em;
+.marseille00010 .frioul{
+        width:100%;
         height: 8.938em;
         border-radius:1.563em 1.563em 0 0;
 }
 
-.marseille0010 p{
+.marseille000010 p{
         display: flex;
-        width:21.875em;
+        width:100%;
         height: 1.563em;
         border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
@@ -492,21 +442,21 @@ margin-left: 0.938em;
 
 .marseille02{
         margin:10px;
-        width: 21.875em;
-        height: 28.313;
+        width: 23%;
+        height: 28.313em;
         border-radius:0 0 1.563em 1.563em;
         border:1px solid white;
         }
   
 .marseille02 .calanques{
-        width:350px;
+        width:100%;
         height: 380px;
         border-radius:25px 25px 0 0;
 }
         
-.marseille02 p{
+.marseille002 p{
         display: flex;
-        width:21.875em;
+        width:100%;
         height: 1.563em;
         border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
@@ -515,21 +465,21 @@ margin-left: 0.938em;
 
 .marseille03 {
         display: flex;
-        width:21.875em;
+        width:23%;
         margin:10px;
         height: 28.125em;
         flex-wrap: wrap;
  }
 
 .marseille003 .notre_dame{
-        width:21.875em;
+        width:100%;
         height: 8.438em;
         border-radius:1.563em 1.563em 0 0;
 }
 
-.marseille003 p{
+.marseille0003 p{
         display: flex;
-        width:21.875em;
+        width:100%;
         height: 1.563em;
         border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
@@ -538,14 +488,14 @@ margin-left: 0.938em;
 }
 
 .marseille0030 .longchamp{
-        width:21.875em;
+        width:100%;
         height: 10.938em;
         border-radius:1.563em 1.563em 0 0;
 }
 
-.marseille0030 p{
+.marseille00030 p{
         display: flex;
-        width:21.875em;
+        width:100%;
         height: 1.563em;
         border-radius:0 0 1.563em 1.563em;
         box-shadow: 8px 8px 8px #aaa;
@@ -555,16 +505,15 @@ margin-left: 0.938em;
 /*Menu footer*/
 
 footer {
-        width: 95%;
+        width: 100%;
         background-color: #F2F2F2;
 }
 
 .pied_page {
         display: flex;
-        width: 73%;
-        display: flex;
+        width: 62%;
         justify-content: space-between;
-        margin-left: 30px;
+        margin: 0 0 0 150px;
 }
 
 .pied_page nav ul{

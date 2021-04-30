@@ -243,21 +243,23 @@ body{
 .hebergements_marseille{
         display:flex;
         flex-wrap: wrap;
+        margin: 5px;
         
 }
 
 .hebergements{
-        width: 62%;
+        width: 58%;
         background-color:#F2F2F2;
         margin:0.625em;
         border-radius: 1.25em;
-        padding: 0 20px 0 20px;
+        padding: 0 0px 0 20px;
 }
 
 .hebergements h3{
         margin-left:0.938em;
         margin-top:2.5em;
         margin-bottom: 0.625em;
+        font-size: 20px;
 }
 .hebergements h4{
         margin-left:0.938em;
@@ -271,7 +273,7 @@ body{
 }
 
 .hg_marseille0{
-        width:270px;
+        width:220px;
         margin:0.625em; 
         background-color: white;
         border:1px solid #F2F2F2;
@@ -281,7 +283,7 @@ body{
 
 .hg_marseille0 img{
         border-radius: 1.063em 1.063em 0 0;
-        height:150px;
+        height:100px;
 }
 
 .desc_hebgmt{
@@ -322,18 +324,18 @@ margin-left: 0.938em;
 /*Les plus populaires */
 
 .populaires{
-        width: 23%;
+        width: 33%;
         background-color:#F2F2F2;
         margin:0.625em;
         border-radius: 1.25em;
-        padding: 0 3.125em 0 3.125em ;
+        padding: 0 10px 0 10px;
 }
 .pop_titre{
         display: flex;
  }
  .chart i{
         margin-top: 45px;
-        margin-left: 200px;
+        margin-left: 160px;
         font-size:20px;
  }
 
@@ -348,20 +350,20 @@ margin-left: 0.938em;
 }
 
 .hg_populaires0{
-        display: inline-flex;
-        margin: 0.625em;
-        border: 1px solid #F2F2F2;
-        border-radius: 0.938em;
+        display: flex;
+        height:140px;
         background-color: white;
+        border:1px solid #F2F2F2;
+        border-radius: 1.063em ;
         padding:0.313em;
-        width:350px;
-
-
+        margin: 10px;
 }
-.hg_populaires0 img{
- 
+.hg_populaires img{
         border-radius: 0.938em 0 0 0.938em;
-        height:8.75em;
+        width: 140px;
+}
+.desc_populaires{
+        margin: 0 30px 0 20px; 
 }
 
 .hg_populaires00{

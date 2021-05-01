@@ -242,9 +242,7 @@ body{
 
 .hebergements_marseille{
         display:flex;
-        flex-wrap: wrap;
-        margin: 5px;
-        
+        flex-wrap: wrap;        
 }
 
 .hebergements{
@@ -252,7 +250,7 @@ body{
         background-color:#F2F2F2;
         margin:0.625em;
         border-radius: 1.25em;
-        padding: 0 0px 0 20px;
+        padding: 0 0px 0 40px;
 }
 
 .hebergements h3{
@@ -273,7 +271,7 @@ body{
 }
 
 .hg_marseille0{
-        width:220px;
+        width:240px;
         margin:0.625em; 
         background-color: white;
         border:1px solid #F2F2F2;
@@ -332,6 +330,7 @@ margin-left: 0.938em;
 }
 .pop_titre{
         display: flex;
+        flex-wrap: wrap;
  }
  .chart i{
         margin-top: 45px;
@@ -340,34 +339,50 @@ margin-left: 0.938em;
  }
 
 .populaires h3{
-        margin-left:0.938em;
+        margin-left:1.968em;
         margin-top:2.5em;
         margin-bottom: 0.625em;
+        font-size: 20px;
 }
+
 .hg_populaires{
         display: flex;
-        flex-wrap: wrap;   
+        flex-wrap: wrap; 
+  
 }
 
 .hg_populaires0{
         display: flex;
-        height:140px;
+        height:130px;
         background-color: white;
         border:1px solid #F2F2F2;
         border-radius: 1.063em ;
+        margin:5px 40px 20px 40px;
         padding:0.313em;
-        margin: 10px;
 }
-.hg_populaires img{
+.hg_populaires0 img{
         border-radius: 0.938em 0 0 0.938em;
         width: 140px;
 }
 .desc_populaires{
         margin: 0 30px 0 20px; 
+        margin-bottom: 0.313em;
 }
 
-.hg_populaires00{
-        margin: 0 0.625em 0 0;
+.desc_populaires p{
+        margin-top: 0.400em;
+        margin-left: 0.938em;
+        margin-bottom: 0.313em;
+ }
+
+.desc_populaires .etoile {
+        margin-left: 0.938em;
+        margin-top: 40px;
+}
+
+.desc_populaires .etoile01 {
+        margin-left: 0.938em;
+        margin-top: 40px;
 }
 
 /*Activités à Marseille*/
@@ -377,7 +392,6 @@ margin-left: 0.938em;
         flex-wrap: wrap;
 }
 .mars_titre{
-
         margin-left:0.938em;
 }
 
@@ -513,9 +527,9 @@ footer {
 
 .pied_page {
         display: flex;
-        width: 62%;
+        width: 52%;
         justify-content: space-between;
-        margin: 0 0 0 150px;
+        margin: 0 0 0 315px;
 }
 
 .pied_page nav ul{

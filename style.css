@@ -4,7 +4,7 @@ body {
 
 /*Container du site global*/
 #container{
-  max-width: 65%;
+  max-width: 85%;
   margin: auto;
   margin-top:-15px;
 }
@@ -15,14 +15,17 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+	margin-top: 40px;
   }
+  
 nav {
     display: flex;
     align-items: center;
  
 }
+
 nav ul {
-	display: flex;
+  display: flex;
   flex-wrap: wrap;
 }
 
@@ -30,27 +33,27 @@ nav li{
 	list-style: none;
 	padding-left: 30px;
 }
-li a{
-text-decoration: none;
-color: black;
+
+.hebgmt a {
+        border-top: 2px solid #0065fc;
+        padding: 1.45em 0.938em;
+        text-decoration: none;
+        color: #0065fc;
 }
-.hebgmt {
-  border-top: 2px solid #0065fc;
-  padding: 0.501em 0.938em;
-  text-decoration: none;
-  color: #0065fc;
+
+.activites a {
+        padding: 0.625em 0.938em;
+        text-decoration: none;
+        color: black;
 }
-.activites {
-  padding: 0.625em 0.938em;
-  text-decoration: none;
-  color: black;
+
+.inscription a {
+        padding: 0.625em 0.938em;
+        text-decoration: none;
+        color: #0065fc;
+        font-weight: bold;
 }
-.inscription {
-  padding: 0.625em 0.938em;
-  text-decoration: none;
-  color: #0065fc;
-  font-weight: bold;
-}
+
 
 /*Introduction texte*/
 
@@ -65,10 +68,18 @@ color: black;
 /*Introduction recherche*/
 
 form.recherche{
-   width: 45%; /*Enlever toutes les width pour éviter que le formulaire de recherche ne se réduise ou s'élargisse quand on augment la taille du site*/
-   display: flex;
+    display: flex;
    margin-top: 20px;
    margin-bottom: 15px;
+}
+
+form.recherche i{
+        display: flex;
+        width: 2.875em;
+        border-radius: 0.875em 0 0 0.875em;
+        background-color:#9e9b9b;
+        justify-content: center;
+        align-items: center;
 }
 
 form.recherche input[type=text] {
@@ -76,31 +87,21 @@ form.recherche input[type=text] {
   font-size: 15px;
   border:1px solid #F2F2F2;
   float: left;
-  width: 30%;
   font-weight: bold;
+  color:black;
 }
 
-form.recherche button {
-  float: left;
-  width: 10%;
-  padding: 10px;
-  background: #F2F2F2;
-  color: black;
-  font-size: 15px;
-  border: 1px solid #F2F2F2;
-  border-radius: 0.875em 0 0 0.875em;
-}
-
-form.recherche button.btn{
-  float: left;
-  width: 22%;
-  padding: 10px;
-  background: #0065fc;
-  color: #F2F2F2;
-  font-size: 15px;
-  border-left: none;
-  border-radius: 0 14px 14px 0;
-  border: 1px solid #0065fc; 
+form.recherche input[type="submit"] {
+        width: 6.1em;
+        height: 2.313em;
+        background-color: #0065fc;
+        color: white;
+        padding: 2px 10px;
+        border-radius: 0 14px 14px 0;
+        font-size: 1.063em;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #0065fc;    
 }
 
 /* Filtres de recherche*/
@@ -256,3 +257,252 @@ form.recherche button.btn{
 }
 
 
+/*Section Marseille*/
+
+#marseille{
+  width: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: space-between;
+  
+  }
+#hebergements{
+  width: 60%;
+  background-color: rgb(59, 202, 46);
+  }
+  
+  aside{
+  width: 30%;
+  background-color: red;
+  }
+  
+#hbgmt_marseille{
+  display: flex;
+  margin: 30px;
+  flex-wrap: wrap; 
+  }
+  
+.cannebiere{
+    background-color: white;
+    border:1px solid #F2F2F2;
+    border-radius: 1.063em ;
+    margin: 15px;
+    padding:3px 5px 5px 5px;
+  }
+  
+.responsive{
+  width: 100%;
+  max-width: 250px;
+  height: 120px;
+  margin:2px;
+  margin-bottom: 0px;
+  border-radius: 1.063em 1.063em 0 0;
+  
+  }
+  
+#hebergements h3{
+  margin-left:20px;
+  }
+  
+#hebergements h4{
+  margin-left:20px;
+  }
+  
+  .desc_cannebiere {
+  margin-top: 10px;
+  margin-bottom: 0.313em;
+  }
+  
+.desc_cannebiere p{
+  margin-left:20px;
+  margin-top: 0.313em;
+  margin-bottom: 0.313em;
+  }
+  
+.etoile {
+    display:flex;
+    margin-left: 0.938em;
+  }
+.etoile .bleu{
+    color: #0065fc;
+  }
+.etoile .gris{
+    color: #cccdce;
+  }
+  
+.port{
+    background-color: white;
+    border:1px solid #F2F2F2;
+    border-radius: 1.063em ;
+    margin: 15px;
+  }
+  
+.desc_port {
+    margin-top: 10px;
+    margin-bottom: 0.313em;
+  }
+  
+.desc_port p{
+    margin-left:20px;
+    margin-top: 0.313em;
+    margin-bottom: 0.313em;
+  }
+  
+.mouettes{
+    background-color: white;
+    border:1px solid #F2F2F2;
+    border-radius: 1.063em ;
+    margin: 15px;
+  }
+  
+  .desc_mouettes {
+    margin-top: 10px;
+    margin-bottom: 0.313em;
+  }
+  
+  .desc_mouettes p{
+    margin-left:20px;
+    margin-top: 0.313em;
+    margin-bottom: 0.313em;
+  }
+  
+  .mer{
+    background-color: white;
+    border:1px solid #F2F2F2;
+    border-radius: 1.063em ;
+    margin: 15px;
+  }
+  
+  .desc_mer {
+    margin-top: 10px;
+    margin-bottom: 0.313em;
+  }
+  
+  .desc_mer p{
+    margin-left:20px;
+    margin-top: 0.313em;
+    margin-bottom: 0.313em;
+  }
+  
+  .auberge{
+    background-color: white;
+    border:1px solid #F2F2F2;
+    border-radius: 1.063em ;
+    margin: 15px;
+  }
+  
+  .desc_auberge {
+    margin-top: 10px;
+    margin-bottom: 0.313em;
+  }
+  
+  .desc_auberge p{
+    margin-left:20px;
+    margin-top: 0.313em;
+    margin-bottom: 0.313em;
+  }
+  
+  .amina{
+    background-color: white;
+    border:1px solid #F2F2F2;
+    border-radius: 1.063em ;
+    margin: 15px;
+  }
+  
+  .desc_amina {
+    margin-top: 10px;
+    margin-bottom: 0.313em;
+  }
+  
+  .desc_amina p{
+    margin-left:20px;
+    margin-top: 0.313em;
+    margin-bottom: 0.313em;
+  }
+  
+  /*Activités à Marseille*/
+
+  #activites_marseille{
+    display: flex;
+    flex-wrap: wrap;
+
+  }
+
+  .vignettes {
+    border: 1px solid #fff;
+    max-width: 400px;
+    margin: 0 20px 20px 0;
+    }
+  
+  .vignettes .port2 {
+    width: 100%;
+    height: 28.313em;
+    border-radius:1.563em 1.563em 0 0;
+
+  }
+   
+  .vignettes .calanques {
+    width: 100%;
+    height: 28.313em;
+  }
+   
+  .desc {
+    padding: 5px;
+    box-shadow: 8px 8px 8px #aaa;
+    border-radius:0 0 1.563em 1.563em ;
+    
+  }
+  .vignettes2 {
+    border: 1px solid #ccc;
+    max-width: 400px;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    }
+
+    .vignettes2 .fort {
+      width: 100%;
+      height: 10em;
+      
+     }
+    .vignettes2 .frioul {
+      width: 100%;
+      height: 8.938em;
+    }
+
+    .vignettes4 {
+      border: 1px solid #ccc;
+      max-width: 400px;
+      margin: 10px;
+      }
+    .vignettes4 .notre_dame {
+      width: 100%;
+      height: 10em;
+    }
+    .vignettes4 .longchamp {
+      width: 100%;
+      height: 8.938em;
+    }
+ 
+ 
+
+  /*Footer*/
+  
+  footer {
+    border: 3px solid burlywood;
+    background-color: burlywood;
+    margin-left:-30px;
+    margin-right:-30px;
+  }
+  .menu_footer{
+    width:90%;
+    height:150px;
+    margin-left: 70px;
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  
+  
+  

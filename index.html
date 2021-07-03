@@ -30,10 +30,9 @@
                     <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
                     <p>En plein centre ville ou en pleine nature</p>
                     <form class="recherche">
-                        <button type="submit"><i class="fas fa-map-marker-alt fa-fw"></i></button>
-                        <!-- Elever le bouton pour utiliser plutôt l'i class-->
+                        <i class="fas fa-map-marker-alt fa-fw"></i>
                         <input type="text" placeholder="Marseille, France">
-                        <button type="submit" class="btn">Rechercher</button>
+                        <input type="submit" value="Rechercher">
                     </form>
                     <div id="lesfiltres">  
                         <p>Filtres</p>
@@ -228,57 +227,60 @@
                     </aside>   
                 </section>
                 
-                <section id="activites">
-                    <h3>Activités à Marseille</h3>
+                <section id="section_marseille">
+                    <div id="activites_titre">
+                        <h3>Activités à Marseille</h3>
+                    </div>
+                    <div id="activites_marseille">
                    <!--- donner les mêmes noms à vignettes et vignettes 3 qui sont identiques --->  
-                    <div class="vignettes">
-                        <div class="port2">
+                        <div class="vignettes">
                             <a target="_blank" href="#">
-                                <img src="images\activites\port.jpg" alt="Vieux Port">
+                                <img src="images\activites\port.jpg" alt="Vieux Port" class="port2" >
                             </a>
-                            <p>Vieux Port</p>
+                            <div class="desc">
+                                <p>Vieux Port</p>
+                            </div>
+                        </div>
+
+                        <div class="vignettes2">
+                            <a target="_blank" href="#">
+                                <img src="images\activites\pomegues.jpg" alt="Fort de Pomègues" class="fort">
+                            </a>
+                            <div class="desc">
+                                <p>Fort de Pomègues</p>
+                            </div>
+                            <a target="_blank" href="#">
+                                <img src="images\activites\frioul.jpg" alt="Îles du Frioul" class="frioul">
+                            </a>
+                            <div class="desc">
+                                <p>îles du Frioul</p>
+                            </div>
+                        </div>
+
+                        <div class="vignettes">
+                            <a target="_blank" href="#">
+                                <img src="images\activites\calanques.jpg" alt="Parc National des Calanques" class="calanques">
+                            </a>
+                            <div class="desc">
+                                <p>Parc National des Calanques</p>
+                            </div> 
+                        </div>
+
+                        <div class="vignettes4">
+                            <a target="_blank" href="#">
+                                <img src="images\activites\notre_dame.jpg" alt="Notre Dame de la Garde" class="notre_dame">
+                            </a>
+                            <div class="desc">
+                                <p>Notre-Dame-de-la-Garde</p>
+                            </div>
+                            <a target="_blank" href="#">
+                                <img src="images\activites\longchamp.jpg" alt="Parc Longchamp" class="longchamp">
+                            </a>
+                            <div class="desc">
+                                <p>Parc Longchamp</p>
+                            </div>
                         </div>
                     </div>
-
-                    <div class="vignettes2">
-                        <div class="pomegues">
-                            <a target="_blank" href="#">
-                                <img src="images\activites\pomegues.jpg" alt="Fort de Pomègues">
-                            </a>
-                            <p>Fort de Pomègues</p>
-                        </div>
-                        <div class="frioul">
-                            <a target="_blank" href="#">
-                                <img src="images\activites\frioul.jpg" alt="Îles du Frioul">
-                            </a>
-                            <p>îles du Frioul</p>
-                        </div>
-                    </div>
-
-                    <div class="vignettes">
-                        <div class="calanques">
-                            <a target="_blank" href="#">
-                                <img src="images\activites\calanques.jpg" alt="Parc National des Calanques">
-                            </a>
-                            <p>Parc National des Calanques</p>
-                        </div> 
-                    </div>
-
-                    <div class="vignettes4">
-                        <div class="notredame">
-                            <a target="_blank" href="#">
-                                <img src="images\activites\notre_dame.jpg" alt="Notre Dame de la Garde">
-                            </a>
-                            <p>Notre-Dame-de-la-Garde</p>
-                        </div>
-                        <div class="longchamp">
-                            <a target="_blank" href="#">
-                                <img src="images\activites\longchamp.jpg" alt="Parc Longchamp">
-                            </a>
-                            <p>Parc Longchamp</p>
-                        </div>
-                    </div>
-
                 </section>
             </main>
         </div>

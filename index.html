@@ -171,59 +171,43 @@
                         <h4>Afficher plus</h4>
                     </div>
                     
-                    <aside>
-                        <div id="populaires">
-                            <h3>Les plus populaires</h3>
-                            <i class="fas fa-chart-line"></i>
+                    <aside id="populaires">
+                        <div class="titre_populaires">
+                        <h3>Les plus populaires</h3>
+                        <i class="fas fa-chart-line"></i>
                         </div>
-                        <div class="soleil">
-                            <a target="_blank" href="#">       
-                                <img src="images\hebergements\hotel_soleil.jpg" alt="Hôtel Le Soleil du matin">
-                            </a> 
-                            <div class="desc_soleil">
-                                <h4>Hôtel Le Soleil du matin</h4>
-                                <p>Nuit à partir de 128€</p>
-                                <div class="etoile">
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                </div>
+                            <div class="articles_populaires">
+                                    <div class="soleil">
+                                        <a target="_blank" href="#">       
+                                            <img src="images\hebergements\hotel_soleil.jpg" class="responsive2" alt="Hôtel Le Soleil du matin">
+                                        </a> 
+                                        <div class="desc_soleil">
+                                            <h4>Hôtel Le Soleil du matin</h4>
+                                            <p>Nuit à partir de 128€</p>
+
+                                        </div>
+                                    </div>
+                                    <div class="coeur">
+                                        <a target="_blank" href="#">
+                                            <img src="images\hebergements\au_coeur.jpg" class="responsive2" alt="Au coeur de l'eau Chambres d'hôtes">
+                                        </a> 
+                                        <div class="desc_coeur">                                                
+                                            <h4>Au coeur de l'eau Chambres d'hôtes</h4>
+                                            <p>Nuit à partir de 128€</p>
+                                                
+                                        </div>
+                                    </div>
+                                    <div class="bleu">
+                                        <a target="_blank" href="#">
+                                            <img src="images\hebergements\tout_bleu.jpg" class="responsive2" alt="Hôtel Tout bleu et Blanc">
+                                        </a> 
+                                        <div class="desc_bleu">
+                                            <h4>Hôtel Tout bleu et Blanc</h4>
+                                            <p>Nuit à partir de 128€</p>
+                                               
+                                        </div>
+                                    </div>
                             </div>
-                        </div>
-                        <div class="coeur">
-                            <a target="_blank" href="#">
-                                <img src="images\hebergements\au_coeur.jpg" alt="Au coeur de l'eau Chambres d'hôtes">
-                            </a> 
-                            <div class="desc_coeur">
-                                <h4>Au coeur de l'eau Chambres d'hôtes</h4>
-                                <p>Nuit à partir de 128€</p>
-                                <div class="etoile">
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="bleu">
-                            <a target="_blank" href="#">
-                                <img src="images\hebergements\tout_bleu.jpg" alt="Hôtel Tout bleu et Blanc">
-                            </a> 
-                            <div class="desc_bleu">
-                                <h4>Hôtel Tout bleu et Blanc</h4>
-                                <p>Nuit à partir de 128€</p>
-                                <div class="etoile">
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                    <i class="fas fa-star" aria-hidden="true"></i>
-                                </div>
-                            </div>
-                        </div>
                     </aside>   
                 </section>
                 
@@ -288,30 +272,34 @@
                 <!---  Pas besoin d'avoir des div pour chaque élément du footer car ils sont identiques --->
                 <!--- Créer une div qui ebnglobe les trois éléments du footer et lui donner une largeur -->
                 <div class="menu_footer">
-                    <h4>A propos</h4>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Fonctionnement du site</a></li>
-                            <li><a href="#">Conditions générales de vente</a></li>
-                            <li><a href="#">Données et confidentialité</a></li>
-                        </ul>
-                    </nav>
-
-                    <h4>Nos hébergements</h4>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Charte qualité</a></li>
-                            <li><a href="#">Soumettre votre hôtel</a></li>
-                        </ul>
-                    </nav>
-
-                    <h4>Assistance</h4>
-                    <nav>
-                        <ul>
-                            <li><a href="#">Centre d'aide</a></li>
-                            <li><a href="#">Nous contacter</a></li>
-                        </ul>
-                    </nav>
+                    <div class="pied_page0">
+                        <h4>A propos</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Fonctionnement du site</a></li>
+                                <li><a href="#">Conditions générales de vente</a></li>
+                                <li><a href="#">Données et confidentialité</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="pied_page0">
+                        <h4>Nos hébergements</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Charte qualité</a></li>
+                                <li><a href="#">Soumettre votre hôtel</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                    <div class="pied_page0">
+                        <h4>Assistance</h4>
+                        <nav>
+                            <ul>
+                                <li><a href="#">Centre d'aide</a></li>
+                                <li><a href="#">Nous contacter</a></li>
+                            </ul>
+                        </nav>
+                    </div>
 
                 </div>
             </footer>

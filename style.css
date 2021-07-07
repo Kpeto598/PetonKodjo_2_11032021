@@ -259,14 +259,14 @@ form.recherche input[type="submit"] {
 
 #marseille{
   width: 100%;
-  background-color: antiquewhite;
   display: flex;
   justify-content: space-between;
   
   }
 #hebergements{
   width: 67%;
-  background-color: rgb(59, 202, 46);
+  background-color:#F2F2F2;
+  border-radius: 1.25em;
   }
   
 #hbgmt_marseille{
@@ -423,7 +423,8 @@ form.recherche input[type="submit"] {
 
 aside{
   width: 30%;
-  background-color: red;
+  background-color:#F2F2F2;
+  border-radius: 1.25em;
   }
 
 aside h3 {
@@ -603,20 +604,16 @@ aside .desc_bleu {
 /*Footer*/
   
 footer {
-    background-color: burlywood;
-      margin-left:-30px;
+    background-color:  #F2F2F2;
+    margin-left:-30px;
     margin-right:-30px;
-    display: flex;
 }
 
 .menu_footer{
+  width:80%;
   display: flex;
 }
 
-h4{
-
-}
-.menu_footer nav{
-  margin-top: 50px;
-}
-
+.menu_f nav ul{
+  display: flex;
+  flex-direction: column;

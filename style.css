@@ -77,7 +77,7 @@ form.recherche i{
         display: flex;
         width: 2.875em;
         border-radius: 0.875em 0 0 0.875em;
-        background-color:#9e9b9b;
+        background-color:#F2F2F2;
         justify-content: center;
         align-items: center;
 }
@@ -240,7 +240,7 @@ form.recherche input[type="submit"] {
   align-items: center;
   width:18px;
   height: 18px;
-  border: 1px solid #686666;
+  border: 1px solid #F2F2F2;
   border-radius: 50%;
   color: #0065fc;
   font-size: 10px;
@@ -602,18 +602,35 @@ aside .desc_bleu {
 }
  
 /*Footer*/
-  
+
 footer {
-    background-color:  #F2F2F2;
-    margin-left:-30px;
-    margin-right:-30px;
+  background-color: #F2F2F2;
+  line-height: 1.5;
+  margin: 0; 
+  padding: 0;
 }
 
-.menu_footer{
-  width:80%;
-  display: flex;
+ul {
+  list-style: none;
+  padding-left: 0;
 }
 
-.menu_f nav ul{
+footer a {
+  text-decoration: none;
+ }
+
+.ft-global {
+  padding: 5px 150px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.ft-menu {
+  padding: 20px;
+  min-width: 552px;
+}
+.ft-menu-titre {
+  font-size:17px;
+  padding-bottom: 5px;
+}
+

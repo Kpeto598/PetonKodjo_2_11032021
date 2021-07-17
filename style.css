@@ -261,7 +261,8 @@ form.recherche input[type="submit"] {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  
+  margin-bottom: 45px;
+ 
   }
 #hebergements{
   width: 67%;
@@ -271,51 +272,55 @@ form.recherche input[type="submit"] {
   
 #hbgmt_marseille{
   display: flex;
-  margin: 3px 20px 50px 80px;
   flex-wrap: wrap; 
+  justify-content: center;
    }
 
-.responsive{
-    width: 100%;
-    max-width: 300px;
-    height: 160px;
-    margin:4px;
-    margin-bottom: 0px;
-    border-radius: 1.063em 1.063em 0 0;
-}
-  
-.cannebiere{
-    background-color: white;
-    border:1px solid #F2F2F2;
-    border-radius: 1.063em ;
-    margin: 15px;
+.hbgmt_mars_vignette{
+  width:27%;
+  background-color: white;
+  border:1px solid #F2F2F2;
+  border-radius: 1.500em ;
+  padding:0.313em;
+  margin:13px;
   }
   
+.hbgmt_mars_vignette img{
+  border-radius: 1.063em 1.063em 0 0;
+  width:100%;
+  height: 150px;
+    }
+
 #hebergements h3{
-  margin-left:108px;
-  font-size: 25px;
+  margin-left: 60px;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 5px;
    }
   
 #hebergements h4{
-  margin-left:108px;
-  font-size: 20px;
+  margin-left: 60px;
+  font-size: 15px;
+  margin-bottom: 55px;
   }
   
-.desc_cannebiere {
+.desc_marseille {
   margin-top: 10px;
   margin-bottom: 0.313em;
   }
   
-.desc_cannebiere p{
-  font-size: 19px;
-  margin-left:20px;
+.desc_marseille p{
+  font-size: 16px;
+  margin-left:10px;
   margin-top: 0.313em;
   margin-bottom: 0.313em;
   }
+
   
 .etoile {
     display:flex;
-    margin-left: 1.3em;
+    margin-left: 0.6em;
+    font-size: 13px;
   }
 .etoile .bleu{
     color: #0065fc;
@@ -324,116 +329,23 @@ form.recherche input[type="submit"] {
     color: #cccdce;
   }
   
-.port{
-    background-color: white;
-    border:1px solid #F2F2F2;
-    border-radius: 1.063em ;
-    margin: 15px;
-  }
-  
-.desc_port {
-    margin-top: 10px;
-    margin-bottom: 0.313em;
-  }
-  
-.desc_port p{
-  font-size: 19px;
-  margin-left:20px;
-  margin-top: 0.313em;
-  margin-bottom: 0.313em;
-  }
-  
-.mouettes{
-    background-color: white;
-    border:1px solid #F2F2F2;
-    border-radius: 1.063em ;
-    margin: 15px;
-}
-  
-.desc_mouettes {
-    margin-top: 10px;
-    margin-bottom: 0.313em;
-}
-  
-.desc_mouettes p{
-  font-size: 19px;
-  margin-left:20px;
-  margin-top: 0.313em;
-  margin-bottom: 0.313em;
-  }
-  
-.mer{
-    background-color: white;
-    border:1px solid #F2F2F2;
-    border-radius: 1.063em ;
-    margin: 15px;
-}
-  
-.desc_mer {
-    margin-top: 10px;
-    margin-bottom: 0.313em;
-}
-  
-.desc_mer p{
-    font-size: 19px;
-    margin-left:20px;
-    margin-top: 0.313em;
-    margin-bottom: 0.313em;
-}
-  
-.auberge{
-    background-color: white;
-    border:1px solid #F2F2F2;
-    border-radius: 1.063em ;
-    margin: 15px;
-}
-  
-.desc_auberge {
-    margin-top: 10px;
-    margin-bottom: 0.313em;
-}
-  
-.desc_auberge p{
-    font-size: 19px;
-    margin-left:20px;
-    margin-top: 0.313em;
-    margin-bottom: 0.313em;
-}
-  
-.amina{
-    background-color: white;
-    border:1px solid #F2F2F2;
-    border-radius: 1.063em ;
-    margin: 15px;
-}
-  
-.desc_amina {
-    margin-top: 10px;
-    margin-bottom: 0.313em;
-}
-  
-.desc_amina p{
-    font-size: 19px;
-    margin-left:20px;
-    margin-top: 0.313em;
-    margin-bottom: 0.313em;
-}
-
   /*Aside Populaire*/
 
 aside{
-  width: 30%;
+  width: 31%;
   background-color:#F2F2F2;
   border-radius: 1.25em;
   }
 
 aside h3 {
-  margin-left:65px;
-  font-size: 25px;
+  margin-left: 35px;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 5px;
 }
 aside i {
   margin-top: 25px;
-  margin-left:90px;
+  margin-left:215px;
   font-size: 25px;
 }
 
@@ -442,87 +354,55 @@ aside i {
   flex-wrap: wrap;
 }
 
-.responsive2{
-  width: 100%;
-  max-width: 150px;
-  height: 150px;
-  margin:2px;
-  margin-bottom: 0px;
-  border-radius: 0.938em 0 0 0.938em;
-}
-
 .articles_populaires{
 display: flex;
 flex-direction: column;
 align-items: center;
 }
 
-aside .soleil{
+.vign_populaires{
   display: flex;
   background-color: white;
-  border:1px solid #F2F2F2;
-  border-radius: 1.063em ;
-  margin: 15px;
-  padding:3px 5px 5px 5px;
-  width:72%;
-}
-aside .desc_soleil {
-  margin-left:15px;
-}
-.desc_soleil p{
-  margin-top: 14px;
-  font-size: 19px;
-}
-.desc_soleil .etoile{
-  margin-top: 14px;
+  border: 1px solid #f2f2f2;
+  border-radius: 1.500em ;
+  padding: 0.313em;
+  margin: 17px;
+  width:84%;
 }
 
-aside .coeur{
-  display: flex;
-  background-color: white;
-  border:1px solid #F2F2F2;
-  border-radius: 1.063em ;
-  margin: 15px;
-  padding:3px 5px 5px 5px;
-  width:72%;;
+.vign_populaires img{
+  border-radius: 1.063em  0 0 1.063em;
+  width: 150px;
+  height: 150px;
 }
-aside .desc_coeur {
+.vign_populaires .desc_populaires {
   margin-left:15px;
 }
-.desc_coeur p{
+.vign_populaires .desc_populaires p{
   margin-top: 14px;
-  font-size: 19px;
+  font-size: 16px;
 }
 
-aside .bleu{
+.vign_populaires .desc_populaires i{
+
   display: flex;
-  background-color: white;
-  border:1px solid #F2F2F2;
-  border-radius: 1.063em ;
-  margin: 15px;
-  padding:3px 5px 5px 5px;
-  width:72%;
-}
-aside .desc_bleu {
-  margin-left:15px;
-}
-.desc_bleu p{
-  margin-top: 14px;
-  font-size: 19px;
+  flex-direction: row;
+  font-size: 10px;
 }
 
 /*Activités à Marseille*/
 
 #activites_marseille{
+  width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  margin-bottom: 60px;
+  margin-bottom: 25px;
 }
 
 .vignettes {
   border: 1px solid #fff;
-  max-width: 440px;
+  max-width: 350px;
 }
   
 .vignettes .port2 {
@@ -546,24 +426,24 @@ aside .desc_bleu {
 }
 
 
-.desc p{
+.desc h4{
   margin-left: 20px;
 }
 
 .desc_2{
   padding: 5px;
-  margin-bottom: 35px;
+  margin-bottom: 26px;
   box-shadow: 8px 8px 8px #aaa;
   border-radius:0 0 1.563em 1.563em ;  
 }
 
-.desc_2 p{
+.desc_2 h4{
   margin-left: 20px;
 }
 
 .vignettes2 {
   border: 1px solid #fff;
-  max-width: 400px;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -577,13 +457,13 @@ aside .desc_bleu {
 }
 .vignettes2 .frioul {
       width: 100%;
-      height: 9.44em;
+      height: 9.53em;
       border-radius:1.563em 1.563em 0 0;
 }
 
 .vignettes4 {
   border: 1px solid #fff;
-  max-width: 400px;
+  max-width: 340px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -610,24 +490,25 @@ footer {
   padding: 0;
 }
 
-ul {
+footer ul {
   list-style: none;
   padding-left: 0;
 }
 
 footer a {
   text-decoration: none;
+  color:black;
  }
 
 .ft-global {
   padding: 5px 150px;
   display: flex;
-  flex-wrap: wrap;
+
 }
 
 .ft-menu {
   padding: 20px;
-  min-width: 552px;
+  min-width: 455px;
 }
 .ft-menu-titre {
   font-size:17px;

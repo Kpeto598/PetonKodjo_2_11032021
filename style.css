@@ -1,26 +1,29 @@
-body {
-  font-family: "Raleway", "sans-serif";
+/* On applique la règle border-box à tous les éléments*/
+*{
+	box-sizing:border-box;
 }
 
-/*Container du site global*/
-#container{
-  max-width: 85%;
+/* On enlève les marges par défaut et on définit la policie du texte*/
+body{
+	font-family: "Raleway", "sans-serif";
+	width: 85%;
   margin: auto;
-  margin-top:-15px;
 }
 
-/*En-tête et navigation*/
+/*Menu navigation*/
 
-header {
-    display: flex;
-    justify-content: space-between;
-    flex-wrap: wrap;
-  	margin-top: 40px;
-  }
+.navigation{
+	padding:5px;
+	display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
   
 nav {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
+	margin-top: 9px;
  
 }
 
@@ -35,25 +38,24 @@ nav li{
 }
 
 .hebgmt a {
-        border-top: 2px solid #0065fc;
-        padding: 1.45em 0.938em;
-        text-decoration: none;
-        color: #0065fc;
+  border-top: 2px solid #0065fc;
+  padding: 1.45em 0.938em;
+  text-decoration: none;
+  color: #0065fc;
 }
 
 .activites a {
-        padding: 0.625em 0.938em;
-        text-decoration: none;
-        color: black;
+  padding: 0.625em 0.938em;
+  text-decoration: none;
+  color: black;
 }
 
 .inscription a {
-        padding: 0.625em 0.938em;
-        text-decoration: none;
-        color: #0065fc;
-        font-weight: bold;
+  padding: 0.625em 0.938em;
+  text-decoration: none;
+  color: #0065fc;
+  font-weight: bold;
 }
-
 
 /*Introduction texte*/
 
@@ -255,21 +257,36 @@ form.recherche input[type="submit"] {
   font-size: 14px;
 }
 
-/*Section Marseille*/
 
+/*Recherche et filtre*/
+
+#header{
+	padding:1px;
+}
+
+/****************************************************************************************************************************************************/
+/************************************************************ SECTION HEBERGEMENTS MARSEILLE ********************************************************/
+/****************************************************************************************************************************************************/
+
+
+/*On crée un conteneur flexible qui contiendra les colonnes*/
 #marseille{
-  width: 100%;
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 45px;
- 
-  }
+	display:flex;
+	flex-wrap:wrap;
+}
+
+/*On crée deux colonnes : une pour barre latérale et une pour la section principale*/
+
+/*Main column*/
 #hebergements{
-  width: 67%;
-  background-color:#F2F2F2;
-  border-radius: 1.25em;
-  }
-  
+	flex:67%;
+	background-color:#F2F2F2;
+	border-radius: 1.25em;
+	padding:20px;
+	margin-right: 20px;
+	margin-bottom:10px;
+}
+
 #hbgmt_marseille{
   display: flex;
   flex-wrap: wrap; 
@@ -277,7 +294,7 @@ form.recherche input[type="submit"] {
    }
 
 .hbgmt_mars_vignette{
-  width:27%;
+  width:295px;
   background-color: white;
   border:1px solid #F2F2F2;
   border-radius: 1.500em ;
@@ -316,7 +333,6 @@ form.recherche input[type="submit"] {
   margin-bottom: 0.313em;
   }
 
-  
 .etoile {
     display:flex;
     margin-left: 0.6em;
@@ -328,14 +344,15 @@ form.recherche input[type="submit"] {
 .etoile .gris{
     color: #cccdce;
   }
-  
-  /*Aside Populaire*/
 
-aside{
-  width: 31%;
-  background-color:#F2F2F2;
-  border-radius: 1.25em;
-  }
+/*On crée deux colonnes : une pour barre latérale et une pour la section principale*/
+#populaires{
+	flex:31%;
+	padding:20px;
+	margin-bottom:10px;
+	background-color:#F2F2F2;
+	border-radius: 1.25em;
+}
 
 aside h3 {
   margin-left: 35px;
@@ -344,14 +361,13 @@ aside h3 {
   margin-bottom: 5px;
 }
 aside i {
-  margin-top: 25px;
-  margin-left:215px;
+  margin-top: 32px;
+  margin-left: 185px;
   font-size: 25px;
 }
 
 .titre_populaires {
   display: flex;
-  flex-wrap: wrap;
 }
 
 .articles_populaires{
@@ -390,16 +406,39 @@ align-items: center;
   font-size: 10px;
 }
 
-/*Activités à Marseille*/
 
-#activites_marseille{
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  margin-bottom: 25px;
+/****************************************************************************************************************************************************/
+/************************************************************ SECTION HEBERGEMENTS MARSEILLE ********************************************************/
+/****************************************************************************************************************************************************/
+
+
+/*On crée un conteneur flexible qui contiendra les colonnes*/
+#activites{
+	display:flex;
+	flex-wrap:wrap;
 }
 
+/*On crée deux colonnes : une pour barre latérale et une pour la section principale*/
+
+/*Main column*/
+#activites_marseille{
+flex:100%;
+margin-bottom:10px;
+
+}
+#activites_marseille h3{
+  margin-left: 8px;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 15px;
+}
+
+#actvt_marseille{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 25px;
+  justify-content: space-between;
+}
 .vignettes {
   border: 1px solid #fff;
   max-width: 350px;
@@ -418,7 +457,6 @@ align-items: center;
   border-radius:1.563em 1.563em 0 0;
 }
 
-   
 .desc{
   padding: 5px;
   box-shadow: 8px 8px 8px #aaa;
@@ -480,38 +518,13 @@ align-items: center;
       height: 12.938em;
       border-radius:1.563em 1.563em 0 0;
 }
- 
+
+
+
+
 /*Footer*/
-
-footer {
-  background-color: #F2F2F2;
-  line-height: 1.5;
-  margin: 0; 
-  padding: 0;
+.footer{
+	padding:20px;
+	text-align:center;
+	background:#ddd;
 }
-
-footer ul {
-  list-style: none;
-  padding-left: 0;
-}
-
-footer a {
-  text-decoration: none;
-  color:black;
- }
-
-.ft-global {
-  padding: 5px 150px;
-  display: flex;
-
-}
-
-.ft-menu {
-  padding: 20px;
-  min-width: 455px;
-}
-.ft-menu-titre {
-  font-size:17px;
-  padding-bottom: 5px;
-}
-

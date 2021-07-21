@@ -6,7 +6,11 @@
 /* On enlève les marges par défaut et on définit la policie du texte*/
 body{
 	font-family: "Raleway", "sans-serif";
-	width: 85%;
+
+}
+
+#container {
+		width: 85%;
   margin: auto;
 }
 
@@ -19,7 +23,6 @@ body{
   flex-wrap: wrap;
 }
 
-  
 nav {
   display: flex;
   align-items: center;
@@ -523,8 +526,9 @@ margin-bottom:10px;
 
 
 /*Footer*/
-.footer{
+#footer{
 	padding:20px;
 	text-align:center;
 	background:#ddd;
 }
+

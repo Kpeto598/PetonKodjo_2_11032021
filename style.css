@@ -1,21 +1,20 @@
-/* On applique la règle border-box à tous les éléments*/
+/* On application border-box à tous les éléments*/
 *{
 	box-sizing:border-box;
 }
 
-/* On enlève les marges par défaut et on définit la policie du texte*/
+/* Retrait marges par défaut et on définit la policie du texte*/
 body{
 	font-family: "Raleway", "sans-serif";
-
 }
 
+/* Définition container du site */
 #container {
-		width: 85%;
+	width: 85%;
   margin: auto;
 }
 
 /*Menu navigation*/
-
 .navigation{
 	padding:5px;
 	display: flex;
@@ -73,18 +72,18 @@ nav li{
 /*Introduction recherche*/
 
 form.recherche{
-    display: flex;
-   margin-top: 20px;
-   margin-bottom: 15px;
+  display: flex;
+  margin-top: 20px;
+  margin-bottom: 15px;
 }
 
 form.recherche i{
-        display: flex;
-        width: 2.875em;
-        border-radius: 0.875em 0 0 0.875em;
-        background-color:#F2F2F2;
-        justify-content: center;
-        align-items: center;
+  display: flex;
+  width: 2.875em;
+  border-radius: 0.875em 0 0 0.875em;
+  background-color:#F2F2F2;
+  justify-content: center;
+  align-items: center;
 }
 
 form.recherche input[type=text] {
@@ -97,16 +96,16 @@ form.recherche input[type=text] {
 }
 
 form.recherche input[type="submit"] {
-        width: 6.1em;
-        height: 2.313em;
-        background-color: #0065fc;
-        color: white;
-        padding: 2px 10px;
-        border-radius: 0 14px 14px 0;
-        font-size: 1.063em;
-        align-items: center;
-        justify-content: center;
-        border: 1px solid #0065fc;    
+  width: 6.1em;
+  height: 2.313em;
+  background-color: #0065fc;
+  color: white;
+  padding: 2px 10px;
+  border-radius: 0 14px 14px 0;
+  font-size: 1.063em;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #0065fc;    
 }
 
 /* Filtres de recherche*/
@@ -280,7 +279,6 @@ form.recherche input[type="submit"] {
 
 /*On crée deux colonnes : une pour barre latérale et une pour la section principale*/
 
-/*Main column*/
 #hebergements{
 	flex:67%;
 	background-color:#F2F2F2;
@@ -348,7 +346,8 @@ form.recherche input[type="submit"] {
     color: #cccdce;
   }
 
-/*On crée deux colonnes : une pour barre latérale et une pour la section principale*/
+/* Zone Populaire*/
+
 #populaires{
 	flex:31%;
 	padding:20px;
@@ -363,6 +362,7 @@ aside h3 {
   margin-top: 35px;
   margin-bottom: 5px;
 }
+
 aside i {
   margin-top: 32px;
   margin-left: 185px;
@@ -397,6 +397,7 @@ align-items: center;
 .vign_populaires .desc_populaires {
   margin-left:15px;
 }
+
 .vign_populaires .desc_populaires p{
   margin-top: 14px;
   font-size: 16px;
@@ -411,22 +412,15 @@ align-items: center;
 
 
 /****************************************************************************************************************************************************/
-/************************************************************ SECTION HEBERGEMENTS MARSEILLE ********************************************************/
+/************************************************************ SECTION ACTIVITES MARSEILLE ********************************************************/
 /****************************************************************************************************************************************************/
 
 
 /*On crée un conteneur flexible qui contiendra les colonnes*/
-#activites{
-	display:flex;
-	flex-wrap:wrap;
-}
 
-/*On crée deux colonnes : une pour barre latérale et une pour la section principale*/
-
-/*Main column*/
 #activites_marseille{
-flex:100%;
-margin-bottom:10px;
+  flex:100%;
+  margin-bottom:10px;
 
 }
 #activites_marseille h3{
@@ -439,12 +433,11 @@ margin-bottom:10px;
 #actvt_marseille{
   display: flex;
   flex-wrap: wrap;
-  margin-bottom: 25px;
   justify-content: space-between;
 }
 .vignettes {
   border: 1px solid #fff;
-  max-width: 350px;
+  width: 380px;
 }
   
 .vignettes .port2 {
@@ -484,51 +477,67 @@ margin-bottom:10px;
 
 .vignettes2 {
   border: 1px solid #fff;
-  max-width: 340px;
+  width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .vignettes2 .fort {
-      width: 100%;
-      height: 12.5em;;
-      border-radius:1.563em 1.563em 0 0;
+  width: 100%;
+  height: 12.5em;;
+  border-radius:1.563em 1.563em 0 0;
       
 }
 .vignettes2 .frioul {
-      width: 100%;
-      height: 9.53em;
-      border-radius:1.563em 1.563em 0 0;
+  width: 100%;
+  height: 9.53em;
+  border-radius:1.563em 1.563em 0 0;
 }
 
 .vignettes4 {
   border: 1px solid #fff;
-  max-width: 340px;
+  width: 380px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
 .vignettes4 .notre_dame {
-      width: 100%;
-      height: 9em;
-      border-radius:1.563em 1.563em 0 0;
+  width: 100%;
+  height: 9em;
+  border-radius:1.563em 1.563em 0 0;
 }
 
 .vignettes4 .longchamp {
-      width: 100%;
-      height: 12.938em;
-      border-radius:1.563em 1.563em 0 0;
+  width: 100%;
+  height: 12.938em;
+  border-radius:1.563em 1.563em 0 0;
 }
-
-
-
 
 /*Footer*/
 #footer{
 	padding:20px;
-	text-align:center;
-	background:#ddd;
+  background-color: #F2F2F2;
 }
-
+.ft-global {
+  display: flex;
+  justify-content: space-between;
+}
+.ft-global a{
+  text-decoration: none;
+  color:black;
+}
+.ft-global ul{
+  list-style: none;
+  padding-left: 0;
+}
+.ft-menu1{
+margin-left: 134px;
+}
+.ft-menu2{
+  margin-left: 106px;
+}
+.ft-menu3{
+  margin-right: 610px;
+}

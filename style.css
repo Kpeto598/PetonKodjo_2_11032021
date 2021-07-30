@@ -283,7 +283,6 @@ form.recherche input[type="submit"] {
 	flex:67%;
 	background-color:#F2F2F2;
 	border-radius: 1.25em;
-	padding:20px;
 	margin-right: 20px;
 	margin-bottom:10px;
 }
@@ -292,10 +291,12 @@ form.recherche input[type="submit"] {
   display: flex;
   flex-wrap: wrap; 
   justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
    }
 
 .hbgmt_mars_vignette{
-  width:295px;
+  width:350px;
   background-color: white;
   border:1px solid #F2F2F2;
   border-radius: 1.500em ;
@@ -357,14 +358,14 @@ form.recherche input[type="submit"] {
 }
 
 aside h3 {
-  margin-left: 35px;
+  margin-left: 44px;
   font-size: 20px;
-  margin-top: 35px;
+  margin-top: 21px;
   margin-bottom: 5px;
 }
 
 aside i {
-  margin-top: 32px;
+  margin-top: 21px;
   margin-left: 185px;
   font-size: 25px;
 }
@@ -540,4 +541,30 @@ margin-left: 134px;
 }
 .ft-menu3{
   margin-right: 610px;
+}
+
+/****************************************************************************************************************************************************/
+/************************************************************ MEDIA QUERIES*************** ********************************************************/
+/****************************************************************************************************************************************************/
+
+
+/************************ Ipad Pro ********************/
+@media (min-width: 1024px) and (max-width: 1366px) {
+	body {
+		background-color: rgb(0, 255, 191);
+	}
+}
+
+/************************ Ipad ********************/
+@media (min-width: 768px) and (max-width: 1024px) {
+	body {
+		background-color: rgb(19, 221, 63);
+	}
+}
+
+/************************ Iphone 6/7/8 ********************/
+@media (min-width: 375px) and (max-width: 667px) {
+	body {
+		background-color: rgb(221, 140, 19);
+	}
 }

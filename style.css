@@ -547,24 +547,103 @@ margin-left: 134px;
 /************************************************************ MEDIA QUERIES*************** ********************************************************/
 /****************************************************************************************************************************************************/
 
+@media (min-width: 375px) and (max-width: 667px) {
+	body {
+		background-color: rgb(83, 216, 172);
+	}
+}
+
 
 /************************ Ipad Pro ********************/
 @media (min-width: 1024px) and (max-width: 1366px) {
 	body {
 		background-color: rgb(0, 255, 191);
 	}
+
+  #hebergements{
+	flex:67%;
+	background-color:#F2F2F2;
+	border-radius: 1.25em;
+	margin-right: 20px;
+	margin-bottom:10px;
 }
 
-/************************ Ipad ********************/
-@media (min-width: 768px) and (max-width: 1024px) {
-	body {
-		background-color: rgb(19, 221, 63);
-	}
+#hbgmt_marseille{
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: center;
+  margin-left: 10px;
+  margin-right: 10px;
+   }
+
+.hbgmt_mars_vignette{
+  width:350px;
+  background-color: white;
+  border:1px solid #F2F2F2;
+  border-radius: 1.500em ;
+  padding:0.313em;
+  margin:13px;
+  }
+  
+.hbgmt_mars_vignette img{
+  border-radius: 1.063em 1.063em 0 0;
+  width:100%;
+  height: 150px;
+    }
+
+#hebergements h3{
+  margin-left: 60px;
+  font-size: 20px;
+  margin-top: 35px;
+  margin-bottom: 5px;
+   }
+  
+#hebergements h4{
+  margin-left: 60px;
+  font-size: 15px;
+  margin-bottom: 55px;
+  }
+  
+.desc_marseille {
+  margin-top: 10px;
+  margin-bottom: 0.313em;
+  }
+  
+.desc_marseille p{
+  font-size: 16px;
+  margin-left:10px;
+  margin-top: 0.313em;
+  margin-bottom: 0.313em;
+  }
+
+.etoile {
+    display:flex;
+    margin-left: 0.6em;
+    font-size: 13px;
+  }
+.etoile .bleu{
+    color: #0065fc;
+  }
+.etoile .gris{
+    color: #cccdce;
+  }
+  #populaires {
+    flex: 31%;
+    padding: 20px;
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    border-radius: 1.25em;
 }
 
-/************************ Iphone 6/7/8 ********************/
-@media (min-width: 375px) and (max-width: 667px) {
-	body {
-		background-color: rgb(221, 140, 19);
-	}
-}
+.ft-menu1{
+  margin-left: 70px;
+  }
+  .ft-menu2{
+    margin-left: -48px;
+  }
+  .ft-menu3{
+    margin-right: 59px;
+  }
+
+
+
